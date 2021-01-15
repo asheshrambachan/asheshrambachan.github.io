@@ -69,7 +69,7 @@ This paper proposes robust inference methods for difference-in-differences and e
 [hpt-supplement]: {{ site.baseurl }}{% link assets/files/hpt-supp.pdf %}
 
 **Econometric analysis of potential outcomes time series: instruments, shocks, linearity and the causal response function** (with [Neil Shephard][nshephard]). 2020.<br/>
-<small>[ <a href="#/" onclick="visib('timeseriescausality')">Abstract</a> | [Draft][timeseriescausality-arxiv]]</small>
+<small>[ <a href="#/" onclick="visib('timeseriescausality')">Abstract</a> | [Draft][timeseriescausality-arxiv] ]</small>
 
 <div id="timeseriescausality" style="display: none; text-align: justify; line-height: 1.2" ><small>
 Bojinov and Shephard (2019) defined potential outcome time series to nonparametrically measure dynamic causal effects in time series experiments. Four innovations are developed in this paper: "instrumental paths," treatments which are "shocks," "linear potential outcomes" and the "causal response function." Potential outcome time series are then used to provide a nonparametric causal interpretation of impulse response functions, generalized impulse response functions, local projections and LP-IV.
