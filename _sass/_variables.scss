@@ -55,12 +55,16 @@ $lighter-gray               : mix(#fff, $gray, 90%);
 $crimson                    : #dc143c;
 $light-crimson              : mix(#fff, $crimson, 50%);
 $lighter-crimson            : mix(#fff, $crimson, 90%);
+$blue                       : 011638;
+$light-blue                 : mix(#fff, $blue, 50%);
+$lighter-blue               : mix(#fff, $blue, 90%);
+$black                      : 141414;
 
 $body-color                 : #fff;
-$background-color           : #fff;
+$background-color           : #f6f0ed;
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-crimson;
-$text-color                 : $dark-gray;
+$text-color                 : $black;
 $border-color               : $lighter-crimson;
 
 $primary-color              : $crimson;
