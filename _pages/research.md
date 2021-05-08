@@ -10,7 +10,12 @@ permalink: /research/
 # <center> Working Papers </center>
 - - -
 
-**Characterizing Fairness over the Set of Good Models under Selective Labels** (with [Amanda Coston][acoston] and [Alexandra Chouldechova][achoulde]). 2020.<br/>
+**Detecting Mistakes in Observational Data** 2021.<br/>
+<small>[ Slides available upon request; Draft coming soon! ]</small>
+
+**Characterizing Fairness over the Set of Good Models under Selective Labels** (with [Amanda Coston][acoston] and [Alexandra Chouldechova][achoulde]). 2020.
+*Accepted for publication, International Conference on Machine Learning (ICML) 2021*
+<br/>
 <small>[ <a href="#/" onclick="visib('fairnessovergoodmodels')">Abstract</a> | [Draft][fairnessovergoodmodels-arxiv] ]</small>
 
 <div id="fairnessovergoodmodels" style="display: none; text-align: justify; line-height: 1.2" ><small>
