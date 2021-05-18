@@ -50,7 +50,7 @@ There is growing concern about "algorithmic bias" - that predictive algorithms u
 [regulatingalgorithms-slides]:{{ site.baseurl }}{% link assets/files/rklm-regulatingalgos-slides.pdf %}
 
 **Panel Experiments and Dynamic Causal Effects: A Finite Population Perspective** (with [Iavor Bojinov][ibojinov] and [Neil Shephard][nshephard]). 2020.
-*Quantitative Economics, Forthcoming*
+*Accepted for publication, Quantitative Economics*
 <br/>
 <small>[ <a href="#/" onclick="visib('panelexperiments')">Abstract</a> | [Draft][panelexperiments-arxiv] | [Slides][panelexperiments-slides] ]</small>
 
