@@ -13,19 +13,6 @@ permalink: /research/
 **Identifying Prediction Mistakes in Observational Data** 2021.<br/>
 <small>[ Draft coming soon! ]</small>
 
-**Characterizing Fairness over the Set of Good Models under Selective Labels** (with [Amanda Coston][acoston] and [Alexandra Chouldechova][achoulde]). 2020.
-*Accepted for publication, International Conference on Machine Learning (ICML) 2021*
-<br/>
-<small>[ <a href="#/" onclick="visib('fairnessovergoodmodels')">Abstract</a> | [Draft][fairnessovergoodmodels-arxiv] ]</small>
-
-<div id="fairnessovergoodmodels" style="display: none; text-align: justify; line-height: 1.2" ><small>
-Algorithmic risk assessments are used to inform decisions in a wide variety of high-stakes settings. Often multiple predictive models deliver similar overall performance but differ markedly in their predictions for individual cases, an empirical phenomenon known as the "Rashomon Effect." These models may have different properties over various groups, and therefore have different predictive fairness properties. We develop a framework for characterizing predictive fairness properties over the set of models that deliver similar overall performance, or "the set of good models." Our framework addresses the empirically relevant challenge of selectively labelled data in the setting where the selection decision and outcome are unconfounded given the observed data features. Our framework can be used to 1) replace an existing model with one that has better fairness properties; or 2) audit for predictive bias. We illustrate these uses cases on a real-world credit-scoring task and a recidivism prediction task.
-</small><br><br/></div>
-
-[fairnessovergoodmodels-arxiv]: https://arxiv.org/pdf/2101.00352.pdf
-[acoston]: http://www.cs.cmu.edu/~acoston/
-[achoulde]: http://www.andrew.cmu.edu/user/achoulde/
-
 **Design-Based Uncertainty for Quasi-Experiments** (with [Jonathan Roth][jroth]). 2020.<br/>
 <small>[ <a href="#/" onclick="visib('design-based-quasi-experiment')">Abstract</a> | [Draft][design-based-arxiv] ] </small>
 
@@ -49,20 +36,6 @@ There is growing concern about "algorithmic bias" - that predictive algorithms u
 [regulatingalgorithms-nberwp]:{{ site.baseurl }}{% link assets/files/rklm-regulatingalgorithms-nberwp.pdf %}
 [regulatingalgorithms-slides]:{{ site.baseurl }}{% link assets/files/rklm-regulatingalgos-slides.pdf %}
 
-**Panel Experiments and Dynamic Causal Effects: A Finite Population Perspective** (with [Iavor Bojinov][ibojinov] and [Neil Shephard][nshephard]). 2020.
-*Accepted for publication, Quantitative Economics*
-<br/>
-<small>[ <a href="#/" onclick="visib('panelexperiments')">Abstract</a> | [Draft][panelexperiments-arxiv] | [Slides][panelexperiments-slides] ]</small>
-
-<div id="panelexperiments" style="display: none; text-align: justify; line-height: 1.2" ><small>
-In panel experiments, we randomly expose multiple units to different treatments and measure their subsequent outcomes, sequentially repeating the procedure numerous times. Using the potential outcomes framework, we define finite population dynamic causal effects that capture the relative effectiveness of alternative treatment paths. For the leading example, known as the lag-p dynamic causal effects, we provide a nonparametric estimator that is unbiased over the randomization distribution. We then derive the finite population limiting distribution of our estimators as either the sample size or the duration of the experiment increases. Our approach provides a new technique for deriving finite population central limit theorems that exploits the underlying Martingale property of unbiased estimators. We further describe two methods for conducting inference on dynamic causal effects: a conservative test for weak null hypotheses of zero average causal effects using the limiting distribution and an exact randomization-based test for sharp null hypotheses. We also derive the finite population limiting distribution of commonly-used linear fixed effects estimators, showing that these estimators perform poorly in the presence of dynamic causal effects. We conclude with a simulation study and an empirical application where we reanalyze a lab experiment on cooperation.
-</small><br><br/></div>
-
-[ibojinov]: https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1199332
-[nshephard]: https://scholar.harvard.edu/shephard/home
-[panelexperiments-arxiv]: https://arxiv.org/pdf/2003.09915.pdf
-[panelexperiments-slides]:{{ site.baseurl }}{% link assets/files/brs-panelexperiments-slides.pdf %}
-
 **An Honest Approach to Parallel Trends** (with [Jonathan Roth][jroth]). 2020.<br/>
 <small>[ <a href="#/" onclick="visib('hpt')">Abstract</a> | [Draft][hpt-draft] | [Supplement][hpt-supplement] ]</small>
 
@@ -81,6 +54,36 @@ Bojinov and Shephard (2019) defined potential outcome time series to nonparametr
 </small><br><br/></div>
 
 [timeseriescausality-arxiv]: https://arxiv.org/pdf/1903.01637.pdf
+
+# <center> Forthcoming </center>
+- - -
+
+**Characterizing Fairness over the Set of Good Models under Selective Labels** (with [Amanda Coston][acoston] and [Alexandra Chouldechova][achoulde]). 2020.
+*Accepted for publication, International Conference on Machine Learning (ICML) 2021*
+<br/>
+<small>[ <a href="#/" onclick="visib('fairnessovergoodmodels')">Abstract</a> | [Draft][fairnessovergoodmodels-arxiv] ]</small>
+
+<div id="fairnessovergoodmodels" style="display: none; text-align: justify; line-height: 1.2" ><small>
+Algorithmic risk assessments are used to inform decisions in a wide variety of high-stakes settings. Often multiple predictive models deliver similar overall performance but differ markedly in their predictions for individual cases, an empirical phenomenon known as the "Rashomon Effect." These models may have different properties over various groups, and therefore have different predictive fairness properties. We develop a framework for characterizing predictive fairness properties over the set of models that deliver similar overall performance, or "the set of good models." Our framework addresses the empirically relevant challenge of selectively labelled data in the setting where the selection decision and outcome are unconfounded given the observed data features. Our framework can be used to 1) replace an existing model with one that has better fairness properties; or 2) audit for predictive bias. We illustrate these uses cases on a real-world credit-scoring task and a recidivism prediction task.
+</small><br><br/></div>
+
+[fairnessovergoodmodels-arxiv]: https://arxiv.org/pdf/2101.00352.pdf
+[acoston]: http://www.cs.cmu.edu/~acoston/
+[achoulde]: http://www.andrew.cmu.edu/user/achoulde/
+
+**Panel Experiments and Dynamic Causal Effects: A Finite Population Perspective** (with [Iavor Bojinov][ibojinov] and [Neil Shephard][nshephard]). 2021.
+*Accepted for publication, Quantitative Economics*
+<br/>
+<small>[ <a href="#/" onclick="visib('panelexperiments')">Abstract</a> | [Draft][panelexperiments-arxiv] | [Slides][panelexperiments-slides] ]</small>
+
+<div id="panelexperiments" style="display: none; text-align: justify; line-height: 1.2" ><small>
+In panel experiments, we randomly assign units to different interventions, measuring their outcomes, and repeating the procedure in several periods. Using the potential outcomes framework, we define finite population dynamic causal effects that capture the relative effectiveness of alternative treatment paths. For a rich class of dynamic causal effects, we provide a nonparametric estimator that is unbiased over the randomization distribution and derive its finite population limiting distribution as either the sample size or the duration of the experiment increases. We develop two methods for inference: a conservative test for weak null hypotheses and an exact randomization test for sharp null hypotheses. We further analyze the finite population probability limit of linear fixed effects estimators. These commonly-used estimators do not recover a causally interpretable estimand if there are dynamic causal effects and serial correlation in the assignments, highlighting the value of our proposed estimator.
+</small><br><br/></div>
+
+[ibojinov]: https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1199332
+[nshephard]: https://scholar.harvard.edu/shephard/home
+[panelexperiments-arxiv]: https://arxiv.org/pdf/2003.09915.pdf
+[panelexperiments-slides]:{{ site.baseurl }}{% link assets/files/brs-panelexperiments-slides.pdf %}
 
 # <center> Publications </center>
 - - -
