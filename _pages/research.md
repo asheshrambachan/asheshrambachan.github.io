@@ -58,7 +58,7 @@ Bojinov and Shephard (2019) defined potential outcome time series to nonparametr
 # <center> Forthcoming </center>
 - - -
 
-**Characterizing Fairness over the Set of Good Models under Selective Labels** (with [Amanda Coston][acoston] and [Alexandra Chouldechova][achoulde]). 2020.
+**Characterizing Fairness over the Set of Good Models under Selective Labels** (with [Amanda Coston][acoston] and [Alexandra Chouldechova][achoulde]). 2021.
 *Accepted for publication, International Conference on Machine Learning (ICML) 2021*
 <br/>
 <small>[ <a href="#/" onclick="visib('fairnessovergoodmodels')">Abstract</a> | [Draft][fairnessovergoodmodels-arxiv] ]</small>
