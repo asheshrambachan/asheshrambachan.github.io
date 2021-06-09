@@ -118,11 +118,6 @@ Concerns that algorithms may discriminate against certain groups have led to num
 
 [pandp-2018]:{{ site.baseurl }}{% link assets/files/klmr-pandp-2018.pdf %}
 
-# <center> Work In Progress </center>
-
-Coming soon!
-
-- - -
 
 [//]: This java script is the button to show abstract
 <script>
