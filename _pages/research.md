@@ -10,7 +10,7 @@ permalink: /research/
 # <center> Working Papers </center>
 - - -
 
-**Identifying Prediction Mistakes in Observational Data** 2021.<br/>
+**Identifying Prediction Mistakes in Observational Data**. 2021.<br/>
 <small>[ Draft coming soon! ]</small>
 
 **Design-Based Uncertainty for Quasi-Experiments** (with [Jonathan Roth][jroth]). 2020.<br/>
@@ -120,12 +120,14 @@ Concerns that algorithms may discriminate against certain groups have led to num
 
 # <center> Work In Progress </center>
 
-***External Instruments and Internal Instruments in Structural Estimation (with [Isaiah Andrews][iandrews], [Nano Barahona][nbarahona], [Matthew Gentzkow][mgentzkow] and [Jesse Shapiro][jshapiro]).
+**External Instruments and Internal Instruments in Structural Estimation** (with [Isaiah Andrews][iandrews], [Nano Barahona][nbarahona], [Matthew Gentzkow][mgentzkow] and [Jesse Shapiro][jshapiro]).
 
 [iandrews]: https://scholar.harvard.edu/iandrews/home
 [nbarahona]: https://hbaraho.github.io/
 [mgentzkow]: https://gentzkow.people.stanford.edu/
 [jshapiro]: https://www.brown.edu/Research/Shapiro/
+
+**Counterfactual Risk Assessments Under Confounding: Learning, Evaluation and Fairness** (with [Amanda Coston][acoston] and [Alexandra Chouldechova][achoulde]).
 
 [//]: This java script is the button to show abstract
 <script>
