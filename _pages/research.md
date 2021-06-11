@@ -118,6 +118,14 @@ Concerns that algorithms may discriminate against certain groups have led to num
 
 [pandp-2018]:{{ site.baseurl }}{% link assets/files/klmr-pandp-2018.pdf %}
 
+# <center> Work In Progress </center>
+
+***External Instruments and Internal Instruments in Structural Estimation (with [Isaiah Andrews][iandrews], [Nano Barahona][nbarahona], [Matthew Gentzkow][mgentzkow] and [Jesse Shapiro][jshapiro]).
+
+[iandrews]: https://scholar.harvard.edu/iandrews/home
+[nbarahona]: https://hbaraho.github.io/
+[mgentzkow]: https://gentzkow.people.stanford.edu/
+[jshapiro]: https://www.brown.edu/Research/Shapiro/
 
 [//]: This java script is the button to show abstract
 <script>
