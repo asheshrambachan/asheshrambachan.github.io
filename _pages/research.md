@@ -15,6 +15,7 @@ permalink: /research/
 
 <div id="identifying-prediction-mistakes" style="display: none; text-align: justify; line-height: 1.2" ><small>
 Decision makers, such as judges and doctors, make consequential choices based on predictions of unknown outcomes. Do these decision makers make systematic prediction mistakes based on the available information? In empirical settings, the preferences and information sets of decision makers are unknown to researchers, which makes uncovering systematic prediction mistakes a difficult identification problem. I develop an econometric framework to tackle this challenge and provide conditions under which systematic prediction mistakes can be identified. I show that exclusion restrictions on which observable characteristics of decisions may directly affect the decision maker's preferences and quasi-experimental variation together are sufficient to identify systematic prediction mistakes. Based on these identification results, I develop a tractable test for whether a decision maker makes systematic prediction mistakes that is applicable to empirical settings such as pretrial release, medical testing, and many others. Future drafts will apply the theory to empirically analyze pretrial release decisions in the criminal justice system.
+</small><br><br/></div>
 
 [identifying-prediction-mistakes-theory-only]:{{ site.baseurl }}{% link assets/files/asheshr_identifyingPredictionMistakes_theoryOnly_June2021.pdf %}
 
