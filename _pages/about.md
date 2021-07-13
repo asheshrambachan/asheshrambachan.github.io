@@ -8,5 +8,5 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. candidate in Economics at Harvard University. My research interests are primarily in econometrics with a focus on causal inference, identification and questions surrounding algorithmic fairness and discrimination.
+I am a Ph.D. candidate in Economics at Harvard University. My research interests are primarily in econometrics with a focus on causal inference in dynamic settings, and questions surrounding algorithmic fairness and discrimination.
 

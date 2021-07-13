@@ -64,19 +64,6 @@ Bojinov and Shephard (2019) defined potential outcome time series to nonparametr
 # <center> Forthcoming </center>
 - - -
 
-**Characterizing Fairness over the Set of Good Models under Selective Labels** (with [Amanda Coston][acoston] and [Alexandra Chouldechova][achoulde]). 2021.
-*Accepted for publication, International Conference on Machine Learning (ICML) 2021*
-<br/>
-<small>[ <a href="#/" onclick="visib('fairnessovergoodmodels')">Abstract</a> | [Draft][fairnessovergoodmodels-arxiv] ]</small>
-
-<div id="fairnessovergoodmodels" style="display: none; text-align: justify; line-height: 1.2" ><small>
-Algorithmic risk assessments are used to inform decisions in a wide variety of high-stakes settings. Often multiple predictive models deliver similar overall performance but differ markedly in their predictions for individual cases, an empirical phenomenon known as the "Rashomon Effect." These models may have different properties over various groups, and therefore have different predictive fairness properties. We develop a framework for characterizing predictive fairness properties over the set of models that deliver similar overall performance, or "the set of good models." Our framework addresses the empirically relevant challenge of selectively labelled data in the setting where the selection decision and outcome are unconfounded given the observed data features. Our framework can be used to 1) replace an existing model with one that has better fairness properties; or 2) audit for predictive bias. We illustrate these uses cases on a real-world credit-scoring task and a recidivism prediction task.
-</small><br><br/></div>
-
-[fairnessovergoodmodels-arxiv]: https://arxiv.org/pdf/2101.00352.pdf
-[acoston]: http://www.cs.cmu.edu/~acoston/
-[achoulde]: http://www.andrew.cmu.edu/user/achoulde/
-
 **Panel Experiments and Dynamic Causal Effects: A Finite Population Perspective** (with [Iavor Bojinov][ibojinov] and [Neil Shephard][nshephard]). 2021.
 *Accepted for publication, Quantitative Economics*
 <br/>
@@ -93,6 +80,20 @@ In panel experiments, we randomly assign units to different interventions, measu
 
 # <center> Publications </center>
 - - -
+
+**Characterizing Fairness over the Set of Good Models under Selective Labels** (with [Amanda Coston][acoston] and [Alexandra Chouldechova][achoulde]). 2021.
+*Accepted for publication, International Conference on Machine Learning (ICML) 2021*
+<br/>
+<small>[ <a href="#/" onclick="visib('fairnessovergoodmodels')">Abstract</a> | [arXiv Draft][fairnessovergoodmodels-arxiv] | [Publication Version][fairnessovergoodmodel-pub] ]</small>
+
+<div id="fairnessovergoodmodels" style="display: none; text-align: justify; line-height: 1.2" ><small>
+Algorithmic risk assessments are used to inform decisions in a wide variety of high-stakes settings. Often multiple predictive models deliver similar overall performance but differ markedly in their predictions for individual cases, an empirical phenomenon known as the "Rashomon Effect." These models may have different properties over various groups, and therefore have different predictive fairness properties. We develop a framework for characterizing predictive fairness properties over the set of models that deliver similar overall performance, or "the set of good models." Our framework addresses the empirically relevant challenge of selectively labelled data in the setting where the selection decision and outcome are unconfounded given the observed data features. Our framework can be used to 1) replace an existing model with one that has better fairness properties; or 2) audit for predictive bias. We illustrate these uses cases on a real-world credit-scoring task and a recidivism prediction task.
+</small><br><br/></div>
+
+[fairnessovergoodmodels-arxiv]: https://arxiv.org/pdf/2101.00352.pdf
+[fairnessovergoodmodels-pub]: http://proceedings.mlr.press/v139/coston21a.html
+[acoston]: http://www.cs.cmu.edu/~acoston/
+[achoulde]: http://www.andrew.cmu.edu/user/achoulde/
 
 **An Economic Perspective on Algorithmic Fairness** (with [Jon Kleinberg][jkleinberg], [Jens Ludwig][jludwig] and [Sendhil Mullainathan][smullainathan]). 2020. AEA Papers and Proceedings, 110, Pp. 91-95.
 <br/>
