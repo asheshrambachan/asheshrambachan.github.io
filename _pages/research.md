@@ -82,7 +82,7 @@ In panel experiments, we randomly assign units to different interventions, measu
 - - -
 
 **Characterizing Fairness over the Set of Good Models under Selective Labels** (with [Amanda Coston][acoston] and [Alexandra Chouldechova][achoulde]). 2021.
-*Accepted for publication, International Conference on Machine Learning (ICML) 2021*
+*International Conference on Machine Learning (ICML) 2021*
 <br/>
 <small>[ <a href="#/" onclick="visib('fairnessovergoodmodels')">Abstract</a> | [arXiv Draft][fairnessovergoodmodels-arxiv] | [Publication Version][fairnessovergoodmodel-pub] ]</small>
 
