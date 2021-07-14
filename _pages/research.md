@@ -107,13 +107,14 @@ There are widespread concerns that the growing use of machine learning algorithm
 
 **Bias In, Bias Out? Evaluating the Folk Wisdom** (with [Jonathan Roth][jroth]). 2020. 1st Symposium on the Foundations of Responsible Computing (FORC 2020), LIPIcs, 156, Pp. 6:1-6:15.
 <br/>
-<small>[ <a href="#/" onclick="visib('biasinbiasout')">Abstract</a> | [Draft][biasinbiasout-draft] ] </small>
+<small>[ <a href="#/" onclick="visib('biasinbiasout')">Abstract</a> | [Draft][biasinbiasout-draft] | [Published Version][biasinbiasout-pub] ] </small>
 
 <div id="biasinbiasout" style="display: none; text-align: justify; line-height: 1.2" ><small>
 We evaluate the folk wisdom that algorithmic decision rules trained on data produced by biased human decision-makers necessarily reflect this bias. We consider a setting where training labels are only generated if a biased decision-maker takes a particular action, and so "biased" training data arise due to discriminatory selection into the training data. In our baseline model, the more biased the decision-maker is against a group, the more the algorithmic decision rule favors that group. We refer to this phenomenon as bias reversal. We then clarify the conditions that give rise to bias reversal. Whether a prediction algorithm reverses or inherits bias depends critically on how the decision-maker affects the training data as well as the label used in training. We illustrate our main theoretical results in a simulation study applied to the New York City Stop, Question and Frisk dataset.
 </small><br><br/></div>
 
 [biasinbiasout-draft]:https://arxiv.org/pdf/1909.08518.pdf
+[biasinbiasout-pub]:https://drops.dagstuhl.de/opus/volltexte/2020/12022/
 
 **Algorithmic Fairness** (with [Jon Kleinberg][jkleinberg], [Jens Ludwig][jludwig] and [Sendhil Mullainathan][smullainathan]). 2018. AEA Papers and Proceedings, 108, Pp. 22-27.
 <br/>
