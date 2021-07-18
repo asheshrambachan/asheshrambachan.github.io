@@ -19,7 +19,7 @@ Decision makers, such as judges and doctors, make consequential choices based on
 
 [identifying-prediction-mistakes-theory-only]:{{ site.baseurl }}{% link assets/files/asheshr_identifyingPredictionMistakes_theoryOnly_June2021.pdf %}
 
-**An Economic Approach to Regulating Algorithms** (with [Jon Kleinberg][jkleinberg], [Jens Ludwig][jludwig] and [Sendhil Mullainathan][smullainathan]). 2020.<br/>
+**An Economic Approach to Regulating Algorithms** (with [Jon Kleinberg][jkleinberg], [Jens Ludwig][jludwig] and [Sendhil Mullainathan][smullainathan]). 2021.<br/>
 <small>[ <a href="#/" onclick="visib('regulatingalgorithms')">Abstract</a> | [Draft][regulatingalgorithms-nberwp] | [Slides][regulatingalgorithms-slides] ]</small>
 
 <div id="regulatingalgorithms" style="display: none; text-align: justify; line-height: 1.2" ><small>
@@ -32,15 +32,25 @@ There is growing concern about "algorithmic bias" - that predictive algorithms u
 [regulatingalgorithms-nberwp]:{{ site.baseurl }}{% link assets/files/rklm-regulatingalgorithms-nberwp.pdf %}
 [regulatingalgorithms-slides]:{{ site.baseurl }}{% link assets/files/rklm-regulatingalgos-slides.pdf %}
 
-**An Honest Approach to Parallel Trends** (with [Jonathan Roth][jroth]). 2020.<br/>
-<small>[ <a href="#/" onclick="visib('hpt')">Abstract</a> | [Draft][hpt-draft] | [Supplement][hpt-supplement] ]</small>
+**An Honest Approach to Parallel Trends** (with [Jonathan Roth][jroth]). 2021.<br/>
+<small>[ <a href="#/" onclick="visib('hpt')">Abstract</a> | [Draft][hpt-draft] | [Supplement][hpt-supplement] | [R package][htp-r-package] ]</small>
 
 <div id="hpt" style="display: none; text-align: justify; line-height: 1.2" ><small>
-This paper proposes robust inference methods for difference-in-differences and event-study designs that do not require that the parallel trends assumption holds exactly. Instead, the researcher must only impose restrictions on the possible differences in trends between the treated and control groups. Several common intuitions expressed in applied work can be captured by such restrictions, including the notion that pre-treatment differences in trends are informative about counterfactual post-treatment differences in trends. Our methodology then guarantees uniformly valid ("honest'') inference when the imposed restrictions are satisfied. We first show that fixed length confidence intervals have near-optimal expected length for a practically-relevant class of restrictions. We next introduce a novel inference procedure that accommodates a wider range of restrictions, which is based on the observation that inference in our setting is equivalent to testing a system of moment inequalities with a large number of linear nuisance parameters. The resulting confidence sets are consistent, and have optimal local asymptotic power for many parameter configurations. We recommend researchers conduct sensitivity analyses to show what conclusions can be drawn under various restrictions on the possible differences in trends.
+This paper proposes tools for robust inference for difference-in-differences and event-study designs. Instead of requiring that the parallel trends assumption holds exactly, we impose that pre-treatment violations of parallel trends (``pre-trends'') are informative about the possible post-treatment violations of parallel trends. Such restrictions allow us to formalize the intuition behind the common practice of testing for pre-existing trends while avoiding issues related to pre-testing. The causal effect of interest is partially identified under such restrictions. We introduce two approaches that guarantee uniformly valid (``honest'') inference under the imposed restrictions, and we derive novel results showing that they have good power properties in our context. We recommend that researchers conduct sensitivity analyses to show what conclusions can be drawn under various restrictions on the possible differences in trends.
 </small><br><br/></div>
 
 [hpt-draft]: {{ site.baseurl }}{% link assets/files/hpt-draft.pdf %}
 [hpt-supplement]: {{ site.baseurl }}{% link assets/files/hpt-supp.pdf %}
+[hpt-r-package]: https://github.com/asheshrambachan/HonestDiD
+
+**Econometric analysis of potential outcomes time series: instruments, shocks, linearity and the causal response function** (with [Neil Shephard][nshephard]). 2020.<br/>
+<small>[ <a href="#/" onclick="visib('timeseriescausality')">Abstract</a> | [Draft][timeseriescausality-arxiv] ]</small>
+
+<div id="timeseriescausality" style="display: none; text-align: justify; line-height: 1.2" ><small>
+Bojinov and Shephard (2019) defined potential outcome time series to nonparametrically measure dynamic causal effects in time series experiments. Four innovations are developed in this paper: "instrumental paths," treatments which are "shocks," "linear potential outcomes" and the "causal response function." Potential outcome time series are then used to provide a nonparametric causal interpretation of impulse response functions, generalized impulse response functions, local projections and LP-IV.
+</small><br><br/></div>
+
+[timeseriescausality-arxiv]: https://arxiv.org/pdf/1903.01637.pdf
 
 **Design-Based Uncertainty for Quasi-Experiments** (with [Jonathan Roth][jroth]). 2020.<br/>
 <small>[ <a href="#/" onclick="visib('design-based-quasi-experiment')">Abstract</a> | [Draft][design-based-arxiv] ] </small>
@@ -51,15 +61,6 @@ Social scientists are often interested in estimating causal effects in settings 
 
 [jroth]: https://jonathandroth.github.io/
 [design-based-arxiv]: https://arxiv.org/pdf/2008.00602v2.pdf
-
-**Econometric analysis of potential outcomes time series: instruments, shocks, linearity and the causal response function** (with [Neil Shephard][nshephard]). 2020.<br/>
-<small>[ <a href="#/" onclick="visib('timeseriescausality')">Abstract</a> | [Draft][timeseriescausality-arxiv] ]</small>
-
-<div id="timeseriescausality" style="display: none; text-align: justify; line-height: 1.2" ><small>
-Bojinov and Shephard (2019) defined potential outcome time series to nonparametrically measure dynamic causal effects in time series experiments. Four innovations are developed in this paper: "instrumental paths," treatments which are "shocks," "linear potential outcomes" and the "causal response function." Potential outcome time series are then used to provide a nonparametric causal interpretation of impulse response functions, generalized impulse response functions, local projections and LP-IV.
-</small><br><br/></div>
-
-[timeseriescausality-arxiv]: https://arxiv.org/pdf/1903.01637.pdf
 
 # <center> Forthcoming </center>
 - - -
