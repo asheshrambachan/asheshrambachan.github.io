@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. candidate in Economics at Harvard University. My research interests are primarily in econometrics with a focus on causal inference in dynamic settings, and questions surrounding algorithmic fairness and discrimination. 
+I am a Ph.D. candidate in Economics at Harvard University. My research interests are primarily in econometrics with a focus on causal inference in dynamic settings, and questions of algorithmic fairness and discrimination in data-driven decision making.
 
 If you'd like to learn more about me, you can find my CV [here][asheshr-cv].
 
