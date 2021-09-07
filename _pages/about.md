@@ -15,4 +15,4 @@ If you'd like to learn more about me, you can find my CV [here][asheshr-cv].
 If you'd like to contact me, please send me an email at asheshr@g.harvard.edu.
 
 
-[asheshr-cv]:{{ site.baseurl }}{% link assets/files/asheshr_cv_July2021.pdf %}
+[asheshr-cv]:{{ site.baseurl }}{% link assets/files/asheshr_cv_September2021.pdf %}
