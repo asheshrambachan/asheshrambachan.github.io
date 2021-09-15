@@ -6,11 +6,10 @@ permalink: /research/
 ---
 <br/> 
 
-
 # <center> Working Papers </center>
 - - -
 
-**Identifying Prediction Mistakes in Observational Data**. 2021.<br/>
+**Identifying Prediction Mistakes in Observational Data**. 2021. *Job Market Paper* <br/>
 <small>[ <a href="#/" onclick="visib('identifying-prediction-mistakes')">Abstract</a> | [Draft][identifying-prediction-mistakes] | [Supplement][identifying-prediction-mistakes-supplement] ]</small>
 
 <div id="identifying-prediction-mistakes" style="display: none; text-align: justify; line-height: 1.2" ><small>
