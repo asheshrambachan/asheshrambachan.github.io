@@ -96,7 +96,7 @@ Algorithmic risk assessments are used to inform decisions in a wide variety of h
 [acoston]: http://www.cs.cmu.edu/~acoston/
 [achoulde]: http://www.andrew.cmu.edu/user/achoulde/
 
-**An Economic Perspective on Algorithmic Fairness** (with [Jon Kleinberg][jkleinberg], [Jens Ludwig][jludwig] and [Sendhil Mullainathan][smullainathan]). 2020. AEA Papers and Proceedings, 110, Pp. 91-95.
+**An Economic Perspective on Algorithmic Fairness** (with [Jon Kleinberg][jkleinberg], [Jens Ludwig][jludwig] and [Sendhil Mullainathan][smullainathan]). 2020. AEA Papers and Proceedings, 110, Pp. 91-95.  *Non-refereed*
 <br/>
 <small>[ <a href="#/" onclick="visib('econ-perspective-fairness')">Abstract</a> | [Published Version][pandp-2020] ] </small>
 
@@ -117,7 +117,7 @@ We evaluate the folk wisdom that algorithmic decision rules trained on data prod
 [biasinbiasout-draft]:https://arxiv.org/pdf/1909.08518.pdf
 [biasinbiasout-pub]:https://drops.dagstuhl.de/opus/volltexte/2020/12022/
 
-**Algorithmic Fairness** (with [Jon Kleinberg][jkleinberg], [Jens Ludwig][jludwig] and [Sendhil Mullainathan][smullainathan]). 2018. AEA Papers and Proceedings, 108, Pp. 22-27.
+**Algorithmic Fairness** (with [Jon Kleinberg][jkleinberg], [Jens Ludwig][jludwig] and [Sendhil Mullainathan][smullainathan]). 2018. AEA Papers and Proceedings, 108, Pp. 22-27. *Non-refereed*
 <br/>
 <small>[ <a href="#/" onclick="visib('algofairness')">Abstract</a> | [Published Version][pandp-2018] ] </small>
 
