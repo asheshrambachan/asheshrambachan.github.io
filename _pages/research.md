@@ -19,6 +19,17 @@ Decision makers, such as doctors, judges, and managers, make consequential choic
 [identifying-prediction-mistakes]:{{ site.baseurl }}{% link assets/files/asheshr_identifyingPredictionMistakes_Main.pdf %}
 [identifying-prediction-mistakes-supplement]:{{ site.baseurl }}{% link assets/files/asheshr_identifyingPredictionMistakes_Supplement.pdf %}
 
+**An Honest Approach to Parallel Trends** (with [Jonathan Roth][jroth]). 2021.<br/>
+<small>[ <a href="#/" onclick="visib('hpt')">Abstract</a> | [Draft][hpt-draft] | [Supplement][hpt-supplement] | [R package][hpt-r-package] ]</small>
+
+<div id="hpt" style="display: none; text-align: justify; line-height: 1.2" ><small>
+This paper proposes tools for robust inference for difference-in-differences and event-study designs. Instead of requiring that the parallel trends assumption holds exactly, we impose that pre-treatment violations of parallel trends (``pre-trends'') are informative about the possible post-treatment violations of parallel trends. Such restrictions allow us to formalize the intuition behind the common practice of testing for pre-existing trends while avoiding issues related to pre-testing. The causal effect of interest is partially identified under such restrictions. We introduce two approaches that guarantee uniformly valid (``honest'') inference under the imposed restrictions, and we derive novel results showing that they have good power properties in our context. We recommend that researchers conduct sensitivity analyses to show what conclusions can be drawn under various restrictions on the possible differences in trends.
+</small><br><br/></div>
+
+[hpt-draft]: {{ site.baseurl }}{% link assets/files/hpt-draft.pdf %}
+[hpt-supplement]: {{ site.baseurl }}{% link assets/files/hpt-supp.pdf %}
+[hpt-r-package]: https://github.com/asheshrambachan/HonestDiD
+
 **An Economic Approach to Regulating Algorithms** (with [Jon Kleinberg][jkleinberg], [Jens Ludwig][jludwig] and [Sendhil Mullainathan][smullainathan]). 2021.<br/>
 <small>[ <a href="#/" onclick="visib('regulatingalgorithms')">Abstract</a> | [Draft][regulatingalgorithms-nberwp] | [Slides][regulatingalgorithms-slides] ]</small>
 
@@ -31,17 +42,6 @@ There is growing concern about "algorithmic bias" - that predictive algorithms u
 [smullainathan]: https://sendhil.org/
 [regulatingalgorithms-nberwp]:{{ site.baseurl }}{% link assets/files/rklm-regulatingalgorithms-nberwp.pdf %}
 [regulatingalgorithms-slides]:{{ site.baseurl }}{% link assets/files/rklm-regulatingalgos-slides.pdf %}
-
-**An Honest Approach to Parallel Trends** (with [Jonathan Roth][jroth]). 2021.<br/>
-<small>[ <a href="#/" onclick="visib('hpt')">Abstract</a> | [Draft][hpt-draft] | [Supplement][hpt-supplement] | [R package][hpt-r-package] ]</small>
-
-<div id="hpt" style="display: none; text-align: justify; line-height: 1.2" ><small>
-This paper proposes tools for robust inference for difference-in-differences and event-study designs. Instead of requiring that the parallel trends assumption holds exactly, we impose that pre-treatment violations of parallel trends (``pre-trends'') are informative about the possible post-treatment violations of parallel trends. Such restrictions allow us to formalize the intuition behind the common practice of testing for pre-existing trends while avoiding issues related to pre-testing. The causal effect of interest is partially identified under such restrictions. We introduce two approaches that guarantee uniformly valid (``honest'') inference under the imposed restrictions, and we derive novel results showing that they have good power properties in our context. We recommend that researchers conduct sensitivity analyses to show what conclusions can be drawn under various restrictions on the possible differences in trends.
-</small><br><br/></div>
-
-[hpt-draft]: {{ site.baseurl }}{% link assets/files/hpt-draft.pdf %}
-[hpt-supplement]: {{ site.baseurl }}{% link assets/files/hpt-supp.pdf %}
-[hpt-r-package]: https://github.com/asheshrambachan/HonestDiD
 
 **Econometric analysis of potential outcomes time series: instruments, shocks, linearity and the causal response function** (with [Neil Shephard][nshephard]). 2020.<br/>
 <small>[ <a href="#/" onclick="visib('timeseriescausality')">Abstract</a> | [Draft][timeseriescausality-arxiv] ]</small>
