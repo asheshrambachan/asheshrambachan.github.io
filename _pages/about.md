@@ -10,7 +10,9 @@ redirect_from:
 
 Welcome to my homepage!
 
-I am a Ph.D. candidate in Economics at Harvard University, where I am advised by [Isaiah Andrews][iandrews], [Sendhil Mullainathan][smullainathan], [Neil Shephard][nshephard], and [Elie Tamer][etamer]. My research interests are primarily in theoretical and applied econometrics. I study causal inference and identification in dynamic settings. I use econometrics to analyze questions of algorithmic fairness and discrimination in machine learning and data-driven decision making. 
+I am a Ph.D. candidate in Economics at Harvard University, where I am advised by [Isaiah Andrews][iandrews], [Sendhil Mullainathan][smullainathan], [Neil Shephard][nshephard], and [Elie Tamer][etamer]. 
+
+My research interests are primarily in theoretical and applied econometrics. I study causal inference and identification in dynamic settings. I use econometrics to analyze questions of algorithmic fairness and discrimination in machine learning and data-driven decision making. 
 
 **I am on the job market in AY 2021-2022.** 
 
