@@ -12,13 +12,15 @@ Welcome to my homepage!
 
 I am a Ph.D. candidate in Economics at Harvard University, where I am advised by [Isaiah Andrews][iandrews], [Sendhil Mullainathan][smullainathan], [Neil Shephard][nshephard], and [Elie Tamer][etamer]. 
 
-My research interests are primarily in theoretical and applied econometrics with a focus on algorithmic fairness and causal inference. My research develops methods for robust causal inference in cross-sectional and dynamic settings, and studies algorithmic fairness and transparency in data-driven decision-making with a particular focus on the use of algorithmic tools in the criminal justice system, and consumer lending markets.
+My research interests are primarily in theoretical and applied econometrics with a focus on algorithmic fairness and causal inference. 
+
+In particular, I develop methods for robust causal inference in cross-sectional and dynamic settings. I study algorithmic fairness and transparency in data-driven decision-making with a particular focus on the use of algorithmic tools in the criminal justice system and consumer lending markets.
 
 **I am on the job market in AY 2021-2022. I will be available for interviews at the 2022 ASSA meetings.** 
 
 If you'd like to learn more about me, you can find my CV [here][asheshr-cv].
 
-If you'd like to contact me, please send me an email at asheshr@g.harvard.edu.
+If you'd like to contact me, please send me an email at asheshr at g.harvard.edu.
 
 [asheshr-cv]:{{ site.baseurl }}{% link assets/files/asheshr_cv.pdf %}
 [iandrews]: https://scholar.harvard.edu/iandrews/home
