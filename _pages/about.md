@@ -16,7 +16,7 @@ My research interests are primarily in theoretical and applied econometrics with
 
 In particular, I develop methods for robust causal inference in cross-sectional and dynamic settings. I study algorithmic fairness and transparency in data-driven decision-making with a particular focus on the use of algorithmic tools in the criminal justice system and consumer lending markets.
 
-**I am on the job market in AY 2021-2022. I will be available for interviews at the 2022 ASSA meetings.** 
+**I am on the job market in AY 2021-2022.** 
 
 If you'd like to learn more about me, you can find my CV [here][asheshr-cv].
 
