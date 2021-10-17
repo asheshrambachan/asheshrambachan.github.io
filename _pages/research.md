@@ -43,14 +43,15 @@ There is growing concern about "algorithmic bias" - that predictive algorithms u
 [regulatingalgorithms-nberwp]:{{ site.baseurl }}{% link assets/files/rklm-regulatingalgorithms-nberwp.pdf %}
 [regulatingalgorithms-slides]:{{ site.baseurl }}{% link assets/files/rklm-regulatingalgos-slides.pdf %}
 
-**Econometric analysis of potential outcomes time series: instruments, shocks, linearity and the causal response function** (with [Neil Shephard][nshephard]). 2020.<br/>
-<small>[ <a href="#/" onclick="visib('timeseriescausality')">Abstract</a> | [Draft][timeseriescausality-arxiv] ]</small>
+**When Do Common Time Series Estimands have Nonparametric Causal Meaning?** (with [Neil Shephard][nshephard]). 2021.<br/>
+<small>[ <a href="#/" onclick="visib('timeseriescausality')">Abstract</a> | [Draft][timeseriesestimands] ]</small>
 
 <div id="timeseriescausality" style="display: none; text-align: justify; line-height: 1.2" ><small>
-Bojinov and Shephard (2019) defined potential outcome time series to nonparametrically measure dynamic causal effects in time series experiments. Four innovations are developed in this paper: "instrumental paths," treatments which are "shocks," "linear potential outcomes" and the "causal response function." Potential outcome time series are then used to provide a nonparametric causal interpretation of impulse response functions, generalized impulse response functions, local projections and LP-IV.
+In this paper, we introduce the nonparametric, direct potential outcome system as a foundational framework for analyzing dynamic causal effects of assignments on outcomes in observational time series settings.
+Using this framework, we provide conditions under which common predictive time series estimands, such as the impulse response function, generalized impulse response function, local projection, and local projection instrument variables, have a nonparametric causal interpretation in terms of such dynamic causal effects.
 </small><br><br/></div>
 
-[timeseriescausality-arxiv]: https://arxiv.org/pdf/1903.01637.pdf
+[timeseriesestimands]:{{ site.baseurl }}{% link assets/files/arns_commontimeseries_causal.pdf %}
 
 **Design-Based Uncertainty for Quasi-Experiments** (with [Jonathan Roth][jroth]). 2020.<br/>
 <small>[ <a href="#/" onclick="visib('design-based-quasi-experiment')">Abstract</a> | [Draft][design-based-arxiv] ] </small>
