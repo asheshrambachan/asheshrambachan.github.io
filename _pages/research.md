@@ -43,7 +43,7 @@ There is growing concern about "algorithmic bias" - that predictive algorithms u
 [regulatingalgorithms-nberwp]:{{ site.baseurl }}{% link assets/files/rklm-regulatingalgorithms-nberwp.pdf %}
 [regulatingalgorithms-slides]:{{ site.baseurl }}{% link assets/files/rklm-regulatingalgos-slides.pdf %}
 
-**When Do Common Time Series Estimands have Nonparametric Causal Meaning?** (with [Neil Shephard][nshephard]). 2021.<br/>
+**When do Common Time Series Estimands have Nonparametric Causal Meaning?** (with [Neil Shephard][nshephard]). 2021.<br/>
 <small>[ <a href="#/" onclick="visib('timeseriescausality')">Abstract</a> | [Draft][timeseriesestimands] ]</small>
 
 <div id="timeseriescausality" style="display: none; text-align: justify; line-height: 1.2" ><small>
