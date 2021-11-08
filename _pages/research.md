@@ -67,7 +67,7 @@ Social scientists are often interested in estimating causal effects in settings 
 - - -
 
 **Panel Experiments and Dynamic Causal Effects: A Finite Population Perspective** (with [Iavor Bojinov][ibojinov] and [Neil Shephard][nshephard]). 2021.
-*Quantitative Economics*
+Quantitative Economics.
 <br/>
 <small>[ <a href="#/" onclick="visib('panelexperiments')">Abstract</a> | [Draft][panelexperiments-arxiv] | [Published Version][panelexperiments-pub] | [Slides][panelexperiments-slides] ]</small>
 
