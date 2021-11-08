@@ -63,13 +63,13 @@ Social scientists are often interested in estimating causal effects in settings 
 [jroth]: https://jonathandroth.github.io/
 [design-based-arxiv]: https://arxiv.org/pdf/2008.00602v2.pdf
 
-# <center> Forthcoming </center>
+# <center> Publications </center>
 - - -
 
 **Panel Experiments and Dynamic Causal Effects: A Finite Population Perspective** (with [Iavor Bojinov][ibojinov] and [Neil Shephard][nshephard]). 2021.
-*Accepted for publication, Quantitative Economics*
+*Quantitative Economics*
 <br/>
-<small>[ <a href="#/" onclick="visib('panelexperiments')">Abstract</a> | [Draft][panelexperiments-arxiv] | [Slides][panelexperiments-slides] ]</small>
+<small>[ <a href="#/" onclick="visib('panelexperiments')">Abstract</a> | [Draft][panelexperiments-arxiv] | [Published Version][panelexperiments-pub] | [Slides][panelexperiments-slides] ]</small>
 
 <div id="panelexperiments" style="display: none; text-align: justify; line-height: 1.2" ><small>
 In panel experiments, we randomly assign units to different interventions, measuring their outcomes, and repeating the procedure in several periods. Using the potential outcomes framework, we define finite population dynamic causal effects that capture the relative effectiveness of alternative treatment paths. For a rich class of dynamic causal effects, we provide a nonparametric estimator that is unbiased over the randomization distribution and derive its finite population limiting distribution as either the sample size or the duration of the experiment increases. We develop two methods for inference: a conservative test for weak null hypotheses and an exact randomization test for sharp null hypotheses. We further analyze the finite population probability limit of linear fixed effects estimators. These commonly-used estimators do not recover a causally interpretable estimand if there are dynamic causal effects and serial correlation in the assignments, highlighting the value of our proposed estimator.
@@ -79,9 +79,7 @@ In panel experiments, we randomly assign units to different interventions, measu
 [nshephard]: https://scholar.harvard.edu/shephard/home
 [panelexperiments-arxiv]: https://arxiv.org/pdf/2003.09915.pdf
 [panelexperiments-slides]:{{ site.baseurl }}{% link assets/files/brs-panelexperiments-slides.pdf %}
-
-# <center> Publications </center>
-- - -
+[panelexperiments-pub]: https://qeconomics.org/ojs/index.php/qe/article/view/1598
 
 **Characterizing Fairness over the Set of Good Models under Selective Labels** (with [Amanda Coston][acoston] and [Alexandra Chouldechova][achoulde]). 2021.
 International Conference on Machine Learning (ICML 2021).
