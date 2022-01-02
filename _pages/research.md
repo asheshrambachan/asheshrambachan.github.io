@@ -19,7 +19,7 @@ Decision makers, such as doctors, judges, and managers, make consequential choic
 [identifying-prediction-mistakes]:{{ site.baseurl }}{% link assets/files/asheshr_identifyingPredictionMistakes_Main.pdf %}
 [identifying-prediction-mistakes-supplement]:{{ site.baseurl }}{% link assets/files/asheshr_identifyingPredictionMistakes_Supplement.pdf %}
 
-**An Honest Approach to Parallel Trends** (with [Jonathan Roth][jroth]). 2021.<br/>
+**An Honest Approach to Parallel Trends** (with [Jonathan Roth][jroth]). 2021. *Revision requested, The Review of Economic Studies.*<br/>
 <small>[ <a href="#/" onclick="visib('hpt')">Abstract</a> | [Draft][hpt-draft] | [Supplement][hpt-supplement] | [R package][hpt-r-package] ]</small>
 
 <div id="hpt" style="display: none; text-align: justify; line-height: 1.2" ><small>
