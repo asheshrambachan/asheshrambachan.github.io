@@ -19,7 +19,8 @@ Decision makers, such as doctors, judges, and managers, make consequential choic
 [identifying-prediction-mistakes]:{{ site.baseurl }}{% link assets/files/asheshr_identifyingPredictionMistakes_Main.pdf %}
 [identifying-prediction-mistakes-supplement]:{{ site.baseurl }}{% link assets/files/asheshr_identifyingPredictionMistakes_Supplement.pdf %}
 
-**A More Credible Approach to Parallel Trends** (with [Jonathan Roth][jroth]). 2022. *Revision requested, The Review of Economic Studies.* (previously titled "An Honest Approach to Parallel Trends") <br/>
+**A More Credible Approach to Parallel Trends** (with [Jonathan Roth][jroth]). 2022. *Revision requested, The Review of Economic Studies.* <br/> 
+(Previously titled "An Honest Approach to Parallel Trends") <br/>
 <small>[ <a href="#/" onclick="visib('hpt')">Abstract</a> | [Draft][hpt-draft] | [R package][hpt-r-package] ]</small>
 
 <div id="hpt" style="display: none; text-align: justify; line-height: 1.2" ><small>
@@ -27,7 +28,6 @@ This paper proposes tools for robust inference in difference-in-differences and 
 </small><br><br/></div>
 
 [hpt-draft]: {{ site.baseurl }}{% link assets/files/hpt-draft.pdf %}
-[hpt-supplement]: {{ site.baseurl }}{% link assets/files/hpt-supp.pdf %}
 [hpt-r-package]: https://github.com/asheshrambachan/HonestDiD
 
 **An Economic Approach to Regulating Algorithms** (with [Jon Kleinberg][jkleinberg], [Jens Ludwig][jludwig] and [Sendhil Mullainathan][smullainathan]). 2021.<br/>
