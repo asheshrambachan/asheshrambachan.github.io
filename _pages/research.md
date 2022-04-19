@@ -19,7 +19,7 @@ Decision makers, such as doctors, judges, and managers, make consequential choic
 [identifying-prediction-mistakes]:{{ site.baseurl }}{% link assets/files/asheshr_identifyingPredictionMistakes_Main.pdf %}
 [identifying-prediction-mistakes-supplement]:{{ site.baseurl }}{% link assets/files/asheshr_identifyingPredictionMistakes_Supplement.pdf %}
 
-**Included and Excluded Instruments in Structural Estimation** (with [Isaiah Andrews][iandrews], [Nano Barahona][nbarahona], [Matthew Gentzkow][mgentzkow] and [Jesse Shapiro][jshapiro]). <br/>
+**Included and Excluded Instruments in Structural Estimation** (with [Isaiah Andrews][iandrews], [Nano Barahona][nbarahona], [Matthew Gentzkow][mgentzkow] and [Jesse Shapiro][jshapiro]). 2022. <br/>
 <small>[ <a href="#/" onclick="visib('included-vs-excluded')">Abstract</a> | [Draft][included-vs-excluded-draft] ]</small>
 
 <div id="included-vs-excluded" style="display: none; text-align: justify; line-height: 1.2" ><small>
@@ -43,7 +43,7 @@ This paper proposes tools for robust inference in difference-in-differences and 
 [hpt-draft]: {{ site.baseurl }}{% link assets/files/hpt-draft.pdf %}
 [hpt-r-package]: https://github.com/asheshrambachan/HonestDiD
 
-**Design-Based Uncertainty for Quasi-Experiments** (with [Jonathan Roth][jroth]). 2022.<br/>
+**Design-Based Uncertainty for Quasi-Experiments** (with [Jonathan Roth][jroth]). 2022. <br/>
 <small>[ <a href="#/" onclick="visib('design-based-quasi-experiment')">Abstract</a> | [Draft][design-based-arxiv] ] </small>
 
 <div id="design-based-quasi-experiment" style="display: none; text-align: justify; line-height: 1.2" ><small>
