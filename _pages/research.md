@@ -19,6 +19,19 @@ Decision makers, such as doctors, judges, and managers, make consequential choic
 [identifying-prediction-mistakes]:{{ site.baseurl }}{% link assets/files/asheshr_identifyingPredictionMistakes_Main.pdf %}
 [identifying-prediction-mistakes-supplement]:{{ site.baseurl }}{% link assets/files/asheshr_identifyingPredictionMistakes_Supplement.pdf %}
 
+**Included and Excluded Instruments in Structural Estimation** (with [Isaiah Andrews][iandrews], [Nano Barahona][nbarahona], [Matthew Gentzkow][mgentzkow] and [Jesse Shapiro][jshapiro]). <br/>
+<small>[ <a href="#/" onclick="visib('included-vs-excluded')">Abstract</a> | [Draft][included-vs-excluded-draft] ]</small>
+
+<div id="included-vs-excluded" style="display: none; text-align: justify; line-height: 1.2" ><small>
+We consider the choice of instrumental variables when a researcher’s structural model may be misspecified. We contrast included instruments, which have a direct causal effect on the outcome holding constant the endogenous variable of interest, with excluded instruments, which do not. We show conditions under which the researcher’s estimand maintains an interpretation in terms of causal effects of the endogenous variable under excluded instruments but not under included instruments. We apply our framework to estimation of a linear instrumental variables model, and of differentiated goods demand models under price endogeneity. We show that the distinction between included and excluded instruments is quantitatively important in simulations based on an application. We extend our results to a dynamic setting by studying estimation of production function parameters under input endogeneity.
+</small><br><br/></div>
+
+[included-vs-excluded-draft]:{{ site.baseurl }}{% link assets/files/includedIV.pdf %}
+[iandrews]: https://scholar.harvard.edu/iandrews/home
+[nbarahona]: https://hbaraho.github.io/
+[mgentzkow]: https://gentzkow.people.stanford.edu/
+[jshapiro]: https://scholar.harvard.edu/shapiro
+
 **A More Credible Approach to Parallel Trends** (with [Jonathan Roth][jroth]). 2022. *Revision requested, The Review of Economic Studies.* <br/> 
 (Previously titled "An Honest Approach to Parallel Trends") <br/>
 <small>[ <a href="#/" onclick="visib('hpt')">Abstract</a> | [Draft][hpt-draft] | [R package][hpt-r-package] ]</small>
@@ -29,6 +42,16 @@ This paper proposes tools for robust inference in difference-in-differences and 
 
 [hpt-draft]: {{ site.baseurl }}{% link assets/files/hpt-draft.pdf %}
 [hpt-r-package]: https://github.com/asheshrambachan/HonestDiD
+
+**Design-Based Uncertainty for Quasi-Experiments** (with [Jonathan Roth][jroth]). 2022.<br/>
+<small>[ <a href="#/" onclick="visib('design-based-quasi-experiment')">Abstract</a> | [Draft][design-based-arxiv] ] </small>
+
+<div id="design-based-quasi-experiment" style="display: none; text-align: justify; line-height: 1.2" ><small>
+Social scientists are often interested in estimating causal effects in settings where all units in the population are observed (e.g. all 50 US states). Design-based approaches, which view the realization of treatment assignments as the source of randomness, may be more appealing than standard sampling-based approaches in such contexts. This paper develops a design-based theory of uncertainty suitable for quasi-experimental settings, in which the researcher estimates the treatment effect as if treatment were randomly assigned, but in reality treatment probabilities may depend in unknown ways on the potential outcomes. We first study the properties of the simple difference-in-means (SDIM) estimator. The SDIM is unbiased for a finite-population design-based analog to the average treatment effect on the treated (ATT) if treatment probabilities are uncorrelated with the potential outcomes in a finite population sense. We further derive expressions for the variance of the SDIM estimator and a central limit theorem under sequences of finite populations with growing sample size. We then show how our results can be applied to analyze the distribution and estimand of difference-in-differences (DiD) and two-stage least squares (2SLS) from a design-based perspective when treatment is not completely randomly assigned.
+</small><br><br/></div>
+
+[jroth]: https://jonathandroth.github.io/
+[design-based-arxiv]: https://arxiv.org/pdf/2008.00602v3.pdf
 
 **An Economic Approach to Regulating Algorithms** (with [Jon Kleinberg][jkleinberg], [Jens Ludwig][jludwig] and [Sendhil Mullainathan][smullainathan]). 2021.<br/>
 <small>[ <a href="#/" onclick="visib('regulatingalgorithms')">Abstract</a> | [Draft][regulatingalgorithms-nberwp] | [Slides][regulatingalgorithms-slides] ]</small>
@@ -52,16 +75,6 @@ Using this framework, we provide conditions under which common predictive time s
 </small><br><br/></div>
 
 [timeseriesestimands]:{{ site.baseurl }}{% link assets/files/arns_commontimeseries_causal.pdf %}
-
-**Design-Based Uncertainty for Quasi-Experiments** (with [Jonathan Roth][jroth]). 2020.<br/>
-<small>[ <a href="#/" onclick="visib('design-based-quasi-experiment')">Abstract</a> | [Draft][design-based-arxiv] ] </small>
-
-<div id="design-based-quasi-experiment" style="display: none; text-align: justify; line-height: 1.2" ><small>
-Social scientists are often interested in estimating causal effects in settings where all units in the population are observed (e.g. all 50 US states). Design-based approaches, which view the realization of treatment assignments as the source of randomness, may be more appealing than standard sampling-based approaches in such contexts. This paper develops a design-based theory of uncertainty suitable for quasi-experimental settings, in which the researcher estimates the treatment effect as if treatment were randomly assigned, but in reality treatment probabilities may depend in unknown ways on the potential outcomes. We first study the properties of the simple difference-in-means (SDIM) estimator. The SDIM is unbiased for a finite-population design-based analog to the average treatment effect on the treated (ATT) if treatment probabilities are uncorrelated with the potential outcomes in a finite population sense. We further derive expressions for the variance of the SDIM estimator and a central limit theorem under sequences of finite populations with growing sample size. We then show how our results can be applied to analyze the distribution and estimand of difference-in-differences (DiD) and two-stage least squares (2SLS) from a design-based perspective when treatment is not completely randomly assigned.
-</small><br><br/></div>
-
-[jroth]: https://jonathandroth.github.io/
-[design-based-arxiv]: https://arxiv.org/pdf/2008.00602v2.pdf
 
 # <center> Publications </center>
 - - -
@@ -127,13 +140,6 @@ Concerns that algorithms may discriminate against certain groups have led to num
 [pandp-2018]:{{ site.baseurl }}{% link assets/files/klmr-pandp-2018.pdf %}
 
 # <center> Work In Progress </center>
-
-**External Instruments and Internal Instruments in Structural Estimation** (with [Isaiah Andrews][iandrews], [Nano Barahona][nbarahona], [Matthew Gentzkow][mgentzkow] and [Jesse Shapiro][jshapiro]).
-
-[iandrews]: https://scholar.harvard.edu/iandrews/home
-[nbarahona]: https://hbaraho.github.io/
-[mgentzkow]: https://gentzkow.people.stanford.edu/
-[jshapiro]: https://www.brown.edu/Research/Shapiro/
 
 **Counterfactual Risk Assessments Under Confounding: Learning, Evaluation and Fairness** (with [Amanda Coston][acoston] and [Alexandra Chouldechova][achoulde]).
 

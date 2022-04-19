@@ -10,13 +10,11 @@ redirect_from:
 
 Welcome to my homepage!
 
-I am a Ph.D. candidate in Economics at Harvard University, where I am advised by [Isaiah Andrews][iandrews], [Sendhil Mullainathan][smullainathan], [Neil Shephard][nshephard], and [Elie Tamer][etamer]. 
+I am a Ph.D. candidate in Economics at Harvard University, where I am advised by [Isaiah Andrews][iandrews], [Sendhil Mullainathan][smullainathan], [Neil Shephard][nshephard], and [Elie Tamer][etamer]. I'll be graduating in May 2022.
 
 My research interests are primarily in theoretical and applied econometrics with a focus on causal inference and algorithmic fairness.
 
 In particular, I develop methods for robust causal inference in cross-sectional and dynamic settings. I study algorithmic fairness and transparency in data-driven decision-making with a particular focus on the use of algorithmic tools in the criminal justice system and consumer lending markets.
-
-**I am on the job market in AY 2021-2022.** 
 
 If you'd like to learn more about me, you can find my CV [here][asheshr-cv].
 
