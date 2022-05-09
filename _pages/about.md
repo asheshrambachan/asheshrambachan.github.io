@@ -10,7 +10,9 @@ redirect_from:
 
 Welcome to my homepage!
 
-I am a Ph.D. candidate in Economics at Harvard University, where I am advised by [Isaiah Andrews][iandrews], [Sendhil Mullainathan][smullainathan], [Neil Shephard][nshephard], and [Elie Tamer][etamer]. I'll be graduating in May 2022.
+I am a Ph.D. candidate in Economics at Harvard University, where I am advised by [Isaiah Andrews][iandrews], [Sendhil Mullainathan][smullainathan], [Neil Shephard][nshephard], and [Elie Tamer][etamer]. I'll be graduating in May 2022. 
+
+In 2022-2023, I'll be a post-doctoral researcher at Microsoft Research New England. In 2023, I'll be joining MIT's economics department as an assistant professor.
 
 My research interests are primarily in theoretical and applied econometrics with a focus on causal inference and data-driven decision-making.
 
