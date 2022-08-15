@@ -141,7 +141,9 @@ Concerns that algorithms may discriminate against certain groups have led to num
 
 # <center> Work In Progress </center>
 
-**Counterfactual Risk Assessments Under Confounding: Learning, Evaluation and Fairness** (with [Amanda Coston][acoston] and [Alexandra Chouldechova][achoulde]).
+**Counterfactual Risk Assessments under Unmeasured Confounding** (with [Amanda Coston][acoston] and [Edward Kennedy][ekennedy]).
+
+[ekennedy]: https://www.ehkennedy.com/
 
 [//]: This java script is the button to show abstract
 <script>
