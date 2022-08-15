@@ -9,7 +9,7 @@ permalink: /research/
 # <center> Working Papers </center>
 - - -
 
-**Identifying Prediction Mistakes in Observational Data**. 2021. *Job Market Paper*. <br/>
+**Identifying Prediction Mistakes in Observational Data**. 2021. <br/>
 <small>[ <a href="#/" onclick="visib('identifying-prediction-mistakes')">Abstract</a> | [Draft][identifying-prediction-mistakes] | [Supplement][identifying-prediction-mistakes-supplement] ]</small>
 
 <div id="identifying-prediction-mistakes" style="display: none; text-align: justify; line-height: 1.2" ><small>
@@ -32,7 +32,7 @@ We consider the choice of instrumental variables when a researcher’s structura
 [mgentzkow]: https://gentzkow.people.stanford.edu/
 [jshapiro]: https://scholar.harvard.edu/shapiro
 
-**A More Credible Approach to Parallel Trends** (with [Jonathan Roth][jroth]). 2022. *Revision requested, The Review of Economic Studies.* <br/> 
+**A More Credible Approach to Parallel Trends** (with [Jonathan Roth][jroth]). 2022. *Conditionally accepted, The Review of Economic Studies.* <br/> 
 (Previously titled "An Honest Approach to Parallel Trends") <br/>
 <small>[ <a href="#/" onclick="visib('hpt')">Abstract</a> | [Draft][hpt-draft] | [R package][hpt-r-package] ]</small>
 
@@ -47,7 +47,7 @@ This paper proposes tools for robust inference in difference-in-differences and 
 <small>[ <a href="#/" onclick="visib('design-based-quasi-experiment')">Abstract</a> | [Draft][design-based-arxiv] ] </small>
 
 <div id="design-based-quasi-experiment" style="display: none; text-align: justify; line-height: 1.2" ><small>
-Social scientists are often interested in estimating causal effects in settings where all units in the population are observed (e.g. all 50 US states). Design-based approaches, which view the realization of treatment assignments as the source of randomness, may be more appealing than standard sampling-based approaches in such contexts. This paper develops a design-based theory of uncertainty suitable for quasi-experimental settings, in which the researcher estimates the treatment effect as if treatment were randomly assigned, but in reality treatment probabilities may depend in unknown ways on the potential outcomes. We first study the properties of the simple difference-in-means (SDIM) estimator. The SDIM is unbiased for a finite-population design-based analog to the average treatment effect on the treated (ATT) if treatment probabilities are uncorrelated with the potential outcomes in a finite population sense. We further derive expressions for the variance of the SDIM estimator and a central limit theorem under sequences of finite populations with growing sample size. We then show how our results can be applied to analyze the distribution and estimand of difference-in-differences (DiD) and two-stage least squares (2SLS) from a design-based perspective when treatment is not completely randomly assigned.
+Conventional standard errors reflect the fact that the observed data is sampled from an infinite super-population, but this approach to uncertainty may be unnatural in settings where all units in the population are observed (e.g. all 50 U.S. states). In such settings, it may be more natural to view the uncertainty as design-based, i.e. arising from the stochastic assignment of treatment. This paper develops a design-based framework for uncertainty that is suitable for analyzing ``quasi-experimental'' settings commonly studied in economics. A key feature of our framework is that each unit has an idiosyncratic probability of receiving treatment, but these idiosyncratic probabilities are unknown to the researcher. We derive conditions under which difference-in-differences (DiD) and related estimators are unbiased for an interpretable causal estimand. When the DiD estimator is unbiased, conventional confidence intervals are valid but potentially conservative in large populations. An interesting feature of our setting is that conventional standard errors tend to be more conservative when treatment probabilities differ across units, which helps to mitigate undercoverage from bias. As a result, conventional confidence intervals for DiD can potentially still have correct coverage even if the design-based analog to parallel trends does not hold exactly. Our results also have implications for the appropriate level to cluster standard errors and for the analysis of instrumental variables.  
 </small><br><br/></div>
 
 [jroth]: https://jonathandroth.github.io/
