@@ -51,7 +51,7 @@ Conventional standard errors reflect the fact that the observed data is sampled 
 </small><br><br/></div>
 
 [jroth]: https://jonathandroth.github.io/
-[design-based-arxiv]: https://arxiv.org/pdf/2008.00602v3.pdf
+[design-based-arxiv]: https://arxiv.org/pdf/2008.00602.pdf
 
 **An Economic Approach to Regulating Algorithms** (with [Jon Kleinberg][jkleinberg], [Jens Ludwig][jludwig] and [Sendhil Mullainathan][smullainathan]). 2021.<br/>
 <small>[ <a href="#/" onclick="visib('regulatingalgorithms')">Abstract</a> | [Draft][regulatingalgorithms-nberwp] | [Slides][regulatingalgorithms-slides] ]</small>
