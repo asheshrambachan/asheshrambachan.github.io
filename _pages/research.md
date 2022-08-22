@@ -53,9 +53,7 @@ Conventional standard errors reflect the fact that the observed data is sampled 
 [jroth]: https://jonathandroth.github.io/
 [design-based-arxiv]: https://arxiv.org/pdf/2008.00602.pdf
 
-**Counterfactual Risk Assessments under Unmeasured Confounding** (with [Amanda Coston][acoston] and [Edward Kennedy][ekennedy]). 2022. 
-
-<br/>
+**Counterfactual Risk Assessments under Unmeasured Confounding** (with [Amanda Coston][acoston] and [Edward Kennedy][ekennedy]). 2022. <br/>
 <small>[ <a href="#/" onclick="visib('risk-assessments-confounding')">Abstract</a> | [Draft][risk-ass-confounding] ] </small>
 
 <div id="risk-assessments-confounding" style="display: none; text-align: justify; line-height: 1.2" ><small>
