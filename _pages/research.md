@@ -53,6 +53,19 @@ Conventional standard errors reflect the fact that the observed data is sampled 
 [jroth]: https://jonathandroth.github.io/
 [design-based-arxiv]: https://arxiv.org/pdf/2008.00602.pdf
 
+**Counterfactual Risk Assessments under Unmeasured Confounding** (with [Amanda Coston][acoston] and [Edward Kennedy][ekennedy]). 2022. 
+
+<br/>
+<small>[ <a href="#/" onclick="visib('risk-assessments-confounding')">Abstract</a> | [Draft][risk-ass-confounding] ] </small>
+
+<div id="risk-assessments-confounding" style="display: none; text-align: justify; line-height: 1.2" ><small>
+Statistical risk assessments inform consequential decisions such as pretrial release in criminal justice, and loan approvals in consumer finance. Such risk assessments make counterfactual predictions, predicting the likelihood of an outcome under a proposed decision (e.g., what would happen if we approved this loan?). A central challenge, however, is that there may have been unobserved confounders that jointly affected past decisions and outcomes in the historical data. This paper therefore proposes a tractable mean outcome sensitivity model that bounds the extent to which unmeasured confounders could affect outcomes on average. Under the mean outcome sensitivity model, the conditional likelihood of the outcome under the proposed decision, popular predictive performance metrics (accuracy, calibration, TPR, FPR, etc.), and commonly-used predictive disparities are partially identified, and we derive their sharp identified sets. We then solve three tasks that are essential to deploying statistical risk assessments in high-stakes settings. First, we propose a learning procedure based on doubly-robust pseudo-outcomes that estimates bounds on the conditional likelihood of the outcome under the proposed decision, and derive a bound on its integrated mean square error. Second, we show how our estimated bounds on the conditional likelihood of the outcome under the proposed decision can be translated into a robust decision-making policy, and derive bounds on its worst-case regret relative to the max-min optimal decision rule. Third, we develop estimators of the bounds on the predictive performance metrics of existing risk assessment that are based on efficient influence functions and cross-fitting, and only require black-box access to the risk assessment.  
+</small><br><br/></div>
+
+[risk-ass-confounding]:{{ site.baseurl }}{% link assets/files/cra_confounding.pdf %} 
+[ekennedy]: https://www.ehkennedy.com/
+
+
 **An Economic Approach to Regulating Algorithms** (with [Jon Kleinberg][jkleinberg], [Jens Ludwig][jludwig] and [Sendhil Mullainathan][smullainathan]). 2021.<br/>
 <small>[ <a href="#/" onclick="visib('regulatingalgorithms')">Abstract</a> | [Draft][regulatingalgorithms-nberwp] | [Slides][regulatingalgorithms-slides] ]</small>
 
@@ -141,9 +154,7 @@ Concerns that algorithms may discriminate against certain groups have led to num
 
 # <center> Work In Progress </center>
 
-**Counterfactual Risk Assessments under Unmeasured Confounding** (with [Amanda Coston][acoston] and [Edward Kennedy][ekennedy]).
-
-[ekennedy]: https://www.ehkennedy.com/
+**Causal Impulse Response Functions in Panel Data: Estimation, Inference, and Robustness.**
 
 [//]: This java script is the button to show abstract
 <script>
