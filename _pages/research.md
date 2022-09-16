@@ -32,8 +32,7 @@ We consider the choice of instrumental variables when a researcher’s structura
 [mgentzkow]: https://gentzkow.people.stanford.edu/
 [jshapiro]: https://scholar.harvard.edu/shapiro
 
-**A More Credible Approach to Parallel Trends** (with [Jonathan Roth][jroth]). 2022. *Conditionally accepted, The Review of Economic Studies.* <br/> 
-(Previously titled "An Honest Approach to Parallel Trends") <br/>
+**A More Credible Approach to Parallel Trends** (with [Jonathan Roth][jroth]). 2022. *Conditionally accepted, The Review of Economic Studies.* <br/>
 <small>[ <a href="#/" onclick="visib('hpt')">Abstract</a> | [Draft][hpt-draft] | [R package][hpt-r-package] ]</small>
 
 <div id="hpt" style="display: none; text-align: justify; line-height: 1.2" ><small>
