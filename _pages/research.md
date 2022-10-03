@@ -9,7 +9,7 @@ permalink: /research/
 # <center> Working Papers </center>
 - - -
 
-**Identifying Prediction Mistakes in Observational Data**. 2021. <br/>
+**Identifying Prediction Mistakes in Observational Data**. 2022. <br/>
 <small>[ <a href="#/" onclick="visib('identifying-prediction-mistakes')">Abstract</a> | [Draft][identifying-prediction-mistakes] | [Supplement][identifying-prediction-mistakes-supplement] ]</small>
 
 <div id="identifying-prediction-mistakes" style="display: none; text-align: justify; line-height: 1.2" ><small>
@@ -31,16 +31,6 @@ We consider the choice of instrumental variables when a researcher’s structura
 [nbarahona]: https://hbaraho.github.io/
 [mgentzkow]: https://gentzkow.people.stanford.edu/
 [jshapiro]: https://scholar.harvard.edu/shapiro
-
-**A More Credible Approach to Parallel Trends** (with [Jonathan Roth][jroth]). 2022. *Conditionally accepted, The Review of Economic Studies.* <br/>
-<small>[ <a href="#/" onclick="visib('hpt')">Abstract</a> | [Draft][hpt-draft] | [R package][hpt-r-package] ]</small>
-
-<div id="hpt" style="display: none; text-align: justify; line-height: 1.2" ><small>
-This paper proposes tools for robust inference in difference-in-differences and event-study designs where the parallel trends assumption may be violated. Instead of requiring that parallel trends holds exactly, we impose restrictions on how different the post-treatment violations of parallel trends can be from the pre-treatment differences in trends ("pre-trends"). The causal parameter of interest is partially identified under these restrictions. We introduce two approaches that guarantee uniformly valid inference under the imposed restrictions, and we derive novel results showing that they have desirable power properties in our context. We illustrate how economic knowledge can inform the restrictions on the possible violations of parallel trends in two economic applications. We also highlight how our approach can be used to conduct sensitivity analyses showing what causal conclusions can be drawn under various restrictions on the possible violations of the parallel trends assumption.
-</small><br><br/></div>
-
-[hpt-draft]: {{ site.baseurl }}{% link assets/files/hpt-draft.pdf %}
-[hpt-r-package]: https://github.com/asheshrambachan/HonestDiD
 
 **Design-Based Uncertainty for Quasi-Experiments** (with [Jonathan Roth][jroth]). 2022. <br/>
 <small>[ <a href="#/" onclick="visib('design-based-quasi-experiment')">Abstract</a> | [Draft][design-based-arxiv] ] </small>
@@ -85,6 +75,17 @@ Using this framework, we provide conditions under which common predictive time s
 </small><br><br/></div>
 
 [timeseriesestimands]:{{ site.baseurl }}{% link assets/files/arns_commontimeseries_causal.pdf %}
+
+**A More Credible Approach to Parallel Trends** (with [Jonathan Roth][jroth]). 2022. *Conditionally accepted, The Review of Economic Studies.* <br/>
+<small>[ <a href="#/" onclick="visib('hpt')">Abstract</a> | [Draft][hpt-draft] | [R package][hpt-r-package] ]</small>
+
+<div id="hpt" style="display: none; text-align: justify; line-height: 1.2" ><small>
+This paper proposes tools for robust inference in difference-in-differences and event-study designs where the parallel trends assumption may be violated. Instead of requiring that parallel trends holds exactly, we impose restrictions on how different the post-treatment violations of parallel trends can be from the pre-treatment differences in trends ("pre-trends"). The causal parameter of interest is partially identified under these restrictions. We introduce two approaches that guarantee uniformly valid inference under the imposed restrictions, and we derive novel results showing that they have desirable power properties in our context. We illustrate how economic knowledge can inform the restrictions on the possible violations of parallel trends in two economic applications. We also highlight how our approach can be used to conduct sensitivity analyses showing what causal conclusions can be drawn under various restrictions on the possible violations of the parallel trends assumption.
+</small><br><br/></div>
+
+[hpt-draft]: {{ site.baseurl }}{% link assets/files/hpt-draft.pdf %}
+[hpt-r-package]: https://github.com/asheshrambachan/HonestDiD
+
 
 # <center> Publications </center>
 - - -
