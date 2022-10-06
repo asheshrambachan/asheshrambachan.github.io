@@ -76,7 +76,11 @@ Using this framework, we provide conditions under which common predictive time s
 
 [timeseriesestimands]:{{ site.baseurl }}{% link assets/files/arns_commontimeseries_causal.pdf %}
 
-**A More Credible Approach to Parallel Trends** (with [Jonathan Roth][jroth]). 2022. *Conditionally accepted, The Review of Economic Studies.* <br/>
+
+# <center> Publications </center>
+- - -
+
+**A More Credible Approach to Parallel Trends** (with [Jonathan Roth][jroth]). 2022. *Forthcoming, The Review of Economic Studies.* <br/>
 <small>[ <a href="#/" onclick="visib('hpt')">Abstract</a> | [Draft][hpt-draft] | [R package][hpt-r-package] ]</small>
 
 <div id="hpt" style="display: none; text-align: justify; line-height: 1.2" ><small>
@@ -85,10 +89,6 @@ This paper proposes tools for robust inference in difference-in-differences and 
 
 [hpt-draft]: {{ site.baseurl }}{% link assets/files/hpt-draft.pdf %}
 [hpt-r-package]: https://github.com/asheshrambachan/HonestDiD
-
-
-# <center> Publications </center>
-- - -
 
 **Panel Experiments and Dynamic Causal Effects: A Finite Population Perspective** (with [Iavor Bojinov][ibojinov] and [Neil Shephard][nshephard]). 2021.
 Quantitative Economics.
