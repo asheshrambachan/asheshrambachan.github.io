@@ -57,7 +57,7 @@ Third, we develop doubly-robust estimators of the bounds on the predictive perfo
 We apply our methods to analyze a real-world credit-scoring task, illustrating how varying assumptions on unmeasured confounding leads to substantive changes in the credit score's predictions and evaluations of its predictive disparities.
 </small><br><br/></div>
 
-[risk-ass-confounding]:{{ site.baseurl }}{% link assets/files/cra_confounding.pdf %} 
+[risk-ass-confounding]: https://arxiv.org/pdf/2212.09844.pdf
 [ekennedy]: https://www.ehkennedy.com/
 
 
