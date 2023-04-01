@@ -9,7 +9,7 @@ permalink: /research/
 # <center> Working Papers </center>
 - - -
 
-**Identifying Prediction Mistakes in Observational Data**. 2022. <br/>
+**Identifying Prediction Mistakes in Observational Data**. 2022. *Revision requested, The Quarterly Journal of Economics.* <br/>
 <small>[ <a href="#/" onclick="visib('identifying-prediction-mistakes')">Abstract</a> | [Draft][identifying-prediction-mistakes] | [Supplement][identifying-prediction-mistakes-supplement] ]</small>
 
 <div id="identifying-prediction-mistakes" style="display: none; text-align: justify; line-height: 1.2" ><small>
