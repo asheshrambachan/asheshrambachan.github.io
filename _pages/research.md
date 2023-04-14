@@ -9,40 +9,9 @@ permalink: /research/
 # <center> Working Papers </center>
 - - -
 
-**Identifying Prediction Mistakes in Observational Data**. 2022. *Revision requested, The Quarterly Journal of Economics.* <br/>
-<small>[ <a href="#/" onclick="visib('identifying-prediction-mistakes')">Abstract</a> | [Draft][identifying-prediction-mistakes] | [Supplement][identifying-prediction-mistakes-supplement] ]</small>
+**From Predictive Algorithms to Automatic Generation of Anomalies** (with [Sendhil Mullainathan][smullainathan]). Updated April 2023 (draft coming soon!).
 
-<div id="identifying-prediction-mistakes" style="display: none; text-align: justify; line-height: 1.2" ><small>
-Decision makers, such as doctors, judges, and managers, make consequential choices based on predictions of unknown outcomes. Do these decision makers make systematic prediction mistakes based on the available information? If so, in what ways are their predictions systematically biased? Uncovering systematic prediction mistakes is difficult as the preferences and information sets of decision makers are unknown to researchers. In this paper, I characterize behavioral and econometric assumptions under which systematic prediction mistakes can be identified in empirical settings such as hiring, pretrial release, and medical testing. I derive a statistical test for whether the decision maker makes systematic prediction mistakes under these assumptions and show how supervised machine learning based models can be used to apply this test. I provide methods for conducting inference on the ways in which the decision maker's predictions are systematically biased.  As an illustration, I apply this econometric framework to analyze the pretrial release decisions of judges in New York City, and I estimate that at least 20% of judges make systematic prediction mistakes about failure to appear risk given defendant characteristics.
-</small><br><br/></div>
-
-[identifying-prediction-mistakes]:{{ site.baseurl }}{% link assets/files/asheshr_identifyingPredictionMistakes_Main.pdf %}
-[identifying-prediction-mistakes-supplement]:{{ site.baseurl }}{% link assets/files/asheshr_identifyingPredictionMistakes_Supplement.pdf %}
-
-**Included and Excluded Instruments in Structural Estimation** (with [Isaiah Andrews][iandrews], [Nano Barahona][nbarahona], [Matthew Gentzkow][mgentzkow] and [Jesse Shapiro][jshapiro]). 2022. <br/>
-<small>[ <a href="#/" onclick="visib('included-vs-excluded')">Abstract</a> | [Draft][included-vs-excluded-draft] ]</small>
-
-<div id="included-vs-excluded" style="display: none; text-align: justify; line-height: 1.2" ><small>
-We consider the choice of instrumental variables when a researcher’s structural model may be misspecified. We contrast included instruments, which have a direct causal effect on the outcome holding constant the endogenous variable of interest, with excluded instruments, which do not. We show conditions under which the researcher’s estimand maintains an interpretation in terms of causal effects of the endogenous variable under excluded instruments but not under included instruments. We apply our framework to estimation of a linear instrumental variables model, and of differentiated goods demand models under price endogeneity. We show that the distinction between included and excluded instruments is quantitatively important in simulations based on an application. We extend our results to a dynamic setting by studying estimation of production function parameters under input endogeneity.
-</small><br><br/></div>
-
-[included-vs-excluded-draft]:{{ site.baseurl }}{% link assets/files/includedIV.pdf %}
-[iandrews]: https://scholar.harvard.edu/iandrews/home
-[nbarahona]: https://hbaraho.github.io/
-[mgentzkow]: https://gentzkow.people.stanford.edu/
-[jshapiro]: https://scholar.harvard.edu/shapiro
-
-**Design-Based Uncertainty for Quasi-Experiments** (with [Jonathan Roth][jroth]). 2022. <br/>
-<small>[ <a href="#/" onclick="visib('design-based-quasi-experiment')">Abstract</a> | [Draft][design-based-arxiv] ] </small>
-
-<div id="design-based-quasi-experiment" style="display: none; text-align: justify; line-height: 1.2" ><small>
-Conventional standard errors reflect the fact that the observed data is sampled from an infinite super-population, but this approach to uncertainty may be unnatural in settings where all units in the population are observed (e.g. all 50 U.S. states). In such settings, it may be more natural to view the uncertainty as design-based, i.e. arising from the stochastic assignment of treatment. This paper develops a design-based framework for uncertainty that is suitable for analyzing ``quasi-experimental'' settings commonly studied in economics. A key feature of our framework is that each unit has an idiosyncratic probability of receiving treatment, but these idiosyncratic probabilities are unknown to the researcher. We derive conditions under which difference-in-differences (DiD) and related estimators are unbiased for an interpretable causal estimand. When the DiD estimator is unbiased, conventional confidence intervals are valid but potentially conservative in large populations. An interesting feature of our setting is that conventional standard errors tend to be more conservative when treatment probabilities differ across units, which helps to mitigate undercoverage from bias. As a result, conventional confidence intervals for DiD can potentially still have correct coverage even if the design-based analog to parallel trends does not hold exactly. Our results also have implications for the appropriate level to cluster standard errors and for the analysis of instrumental variables.  
-</small><br><br/></div>
-
-[jroth]: https://jonathandroth.github.io/
-[design-based-arxiv]: https://arxiv.org/pdf/2008.00602.pdf
-
-**Counterfactual Risk Assessments under Unmeasured Confounding** (with [Amanda Coston][acoston] and [Edward Kennedy][ekennedy]). 2022. <br/>
+**Counterfactual Risk Assessments under Unmeasured Confounding** (with [Amanda Coston][acoston] and [Edward Kennedy][ekennedy]). Updated Feb 2023. <br/>
 <small>[ <a href="#/" onclick="visib('risk-assessments-confounding')">Abstract</a> | [Draft][risk-ass-confounding] ] </small>
 
 <div id="risk-assessments-confounding" style="display: none; text-align: justify; line-height: 1.2" ><small>
@@ -60,8 +29,51 @@ We apply our methods to analyze a real-world credit-scoring task, illustrating h
 [risk-ass-confounding]: https://arxiv.org/pdf/2212.09844.pdf
 [ekennedy]: https://www.ehkennedy.com/
 
+**Design-Based Uncertainty for Quasi-Experiments** (with [Jonathan Roth][jroth]). Updated Nov 2022. <br/>
+<small>[ <a href="#/" onclick="visib('design-based-quasi-experiment')">Abstract</a> | [Draft][design-based-arxiv] ] </small>
 
-**An Economic Approach to Regulating Algorithms** (with [Jon Kleinberg][jkleinberg], [Jens Ludwig][jludwig] and [Sendhil Mullainathan][smullainathan]). 2021.<br/>
+<div id="design-based-quasi-experiment" style="display: none; text-align: justify; line-height: 1.2" ><small>
+Conventional standard errors reflect the fact that the observed data is sampled from an infinite super-population, but this approach to uncertainty may be unnatural in settings where all units in the population are observed (e.g. all 50 U.S. states). In such settings, it may be more natural to view the uncertainty as design-based, i.e. arising from the stochastic assignment of treatment. This paper develops a design-based framework for uncertainty that is suitable for analyzing ``quasi-experimental'' settings commonly studied in economics. A key feature of our framework is that each unit has an idiosyncratic probability of receiving treatment, but these idiosyncratic probabilities are unknown to the researcher. We derive conditions under which difference-in-differences (DiD) and related estimators are unbiased for an interpretable causal estimand. When the DiD estimator is unbiased, conventional confidence intervals are valid but potentially conservative in large populations. An interesting feature of our setting is that conventional standard errors tend to be more conservative when treatment probabilities differ across units, which helps to mitigate undercoverage from bias. As a result, conventional confidence intervals for DiD can potentially still have correct coverage even if the design-based analog to parallel trends does not hold exactly. Our results also have implications for the appropriate level to cluster standard errors and for the analysis of instrumental variables.  
+</small><br><br/></div>
+
+[jroth]: https://jonathandroth.github.io/
+[design-based-arxiv]: https://arxiv.org/pdf/2008.00602.pdf
+
+**Identifying Prediction Mistakes in Observational Data**. Updated Oct 2022. *Revision requested, The Quarterly Journal of Economics.* <br/>
+<small>[ <a href="#/" onclick="visib('identifying-prediction-mistakes')">Abstract</a> | [Draft][identifying-prediction-mistakes] | [Supplement][identifying-prediction-mistakes-supplement] ]</small>
+
+<div id="identifying-prediction-mistakes" style="display: none; text-align: justify; line-height: 1.2" ><small>
+Decision makers, such as doctors, judges, and managers, make consequential choices based on predictions of unknown outcomes. Do these decision makers make systematic prediction mistakes based on the available information? If so, in what ways are their predictions systematically biased? Uncovering systematic prediction mistakes is difficult as the preferences and information sets of decision makers are unknown to researchers. In this paper, I characterize behavioral and econometric assumptions under which systematic prediction mistakes can be identified in empirical settings such as hiring, pretrial release, and medical testing. I derive a statistical test for whether the decision maker makes systematic prediction mistakes under these assumptions and show how supervised machine learning based models can be used to apply this test. I provide methods for conducting inference on the ways in which the decision maker's predictions are systematically biased.  As an illustration, I apply this econometric framework to analyze the pretrial release decisions of judges in New York City, and I estimate that at least 20% of judges make systematic prediction mistakes about failure to appear risk given defendant characteristics.
+</small><br><br/></div>
+
+[identifying-prediction-mistakes]:{{ site.baseurl }}{% link assets/files/asheshr_identifyingPredictionMistakes_Main.pdf %}
+[identifying-prediction-mistakes-supplement]:{{ site.baseurl }}{% link assets/files/asheshr_identifyingPredictionMistakes_Supplement.pdf %}
+
+**Included and Excluded Instruments in Structural Estimation** (with [Isaiah Andrews][iandrews], [Nano Barahona][nbarahona], [Matthew Gentzkow][mgentzkow] and [Jesse Shapiro][jshapiro]). Updated April 2022. <br/>
+<small>[ <a href="#/" onclick="visib('included-vs-excluded')">Abstract</a> | [Draft][included-vs-excluded-draft] ]</small>
+
+<div id="included-vs-excluded" style="display: none; text-align: justify; line-height: 1.2" ><small>
+We consider the choice of instrumental variables when a researcher’s structural model may be misspecified. We contrast included instruments, which have a direct causal effect on the outcome holding constant the endogenous variable of interest, with excluded instruments, which do not. We show conditions under which the researcher’s estimand maintains an interpretation in terms of causal effects of the endogenous variable under excluded instruments but not under included instruments. We apply our framework to estimation of a linear instrumental variables model, and of differentiated goods demand models under price endogeneity. We show that the distinction between included and excluded instruments is quantitatively important in simulations based on an application. We extend our results to a dynamic setting by studying estimation of production function parameters under input endogeneity.
+</small><br><br/></div>
+
+[included-vs-excluded-draft]:{{ site.baseurl }}{% link assets/files/includedIV.pdf %}
+[iandrews]: https://scholar.harvard.edu/iandrews/home
+[nbarahona]: https://hbaraho.github.io/
+[mgentzkow]: https://gentzkow.people.stanford.edu/
+[jshapiro]: https://scholar.harvard.edu/shapiro
+
+**When do Common Time Series Estimands have Nonparametric Causal Meaning?** (with [Neil Shephard][nshephard]). Updated Oct 2021.<br/>
+<small>[ <a href="#/" onclick="visib('timeseriescausality')">Abstract</a> | [Draft][timeseriesestimands] ]</small>
+
+<div id="timeseriescausality" style="display: none; text-align: justify; line-height: 1.2" ><small>
+In this paper, we introduce the nonparametric, direct potential outcome system as a foundational framework for analyzing dynamic causal effects of assignments on outcomes in observational time series settings.
+Using this framework, we provide conditions under which common predictive time series estimands, such as the impulse response function, generalized impulse response function, local projection, and local projection instrument variables, have a nonparametric causal interpretation in terms of such dynamic causal effects.
+</small><br><br/></div>
+
+[timeseriesestimands]:{{ site.baseurl }}{% link assets/files/arns_commontimeseries_causal.pdf %}
+
+
+**An Economic Approach to Regulating Algorithms** (with [Jon Kleinberg][jkleinberg], [Jens Ludwig][jludwig] and [Sendhil Mullainathan][smullainathan]). Updated Jan 2021.<br/>
 <small>[ <a href="#/" onclick="visib('regulatingalgorithms')">Abstract</a> | [Draft][regulatingalgorithms-nberwp] | [Slides][regulatingalgorithms-slides] ]</small>
 
 <div id="regulatingalgorithms" style="display: none; text-align: justify; line-height: 1.2" ><small>
@@ -73,17 +85,6 @@ There is growing concern about "algorithmic bias" - that predictive algorithms u
 [smullainathan]: https://sendhil.org/
 [regulatingalgorithms-nberwp]:{{ site.baseurl }}{% link assets/files/rklm-regulatingalgorithms-nberwp.pdf %}
 [regulatingalgorithms-slides]:{{ site.baseurl }}{% link assets/files/rklm-regulatingalgos-slides.pdf %}
-
-**When do Common Time Series Estimands have Nonparametric Causal Meaning?** (with [Neil Shephard][nshephard]). 2021.<br/>
-<small>[ <a href="#/" onclick="visib('timeseriescausality')">Abstract</a> | [Draft][timeseriesestimands] ]</small>
-
-<div id="timeseriescausality" style="display: none; text-align: justify; line-height: 1.2" ><small>
-In this paper, we introduce the nonparametric, direct potential outcome system as a foundational framework for analyzing dynamic causal effects of assignments on outcomes in observational time series settings.
-Using this framework, we provide conditions under which common predictive time series estimands, such as the impulse response function, generalized impulse response function, local projection, and local projection instrument variables, have a nonparametric causal interpretation in terms of such dynamic causal effects.
-</small><br><br/></div>
-
-[timeseriesestimands]:{{ site.baseurl }}{% link assets/files/arns_commontimeseries_causal.pdf %}
-
 
 # <center> Publications </center>
 - - -
