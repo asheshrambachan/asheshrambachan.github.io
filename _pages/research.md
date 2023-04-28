@@ -89,7 +89,7 @@ There is growing concern about "algorithmic bias" - that predictive algorithms u
 # <center> Publications </center>
 - - -
 
-**A More Credible Approach to Parallel Trends** (with [Jonathan Roth][jroth]). 2022. *Forthcoming, The Review of Economic Studies.* <br/>
+**A More Credible Approach to Parallel Trends** (with [Jonathan Roth][jroth]). 2023. The Review of Economic Studies. <br/>
 <small>[ <a href="#/" onclick="visib('hpt')">Abstract</a> | [Draft][hpt-draft] | [R package][hpt-r-package] ]</small>
 
 <div id="hpt" style="display: none; text-align: justify; line-height: 1.2" ><small>
