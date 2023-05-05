@@ -9,7 +9,14 @@ permalink: /research/
 # <center> Working Papers </center>
 - - -
 
-**From Predictive Algorithms to Automatic Generation of Anomalies** (with [Sendhil Mullainathan][smullainathan]). Updated April 2023 (draft coming soon!).
+**From Predictive Algorithms to Automatic Generation of Anomalies** (with [Sendhil Mullainathan][smullainathan]). Updated April 2023. <br/>
+<small>[ <a href="#/" onclick="visib('anomalies')">Abstract</a> | [Draft][anomalies_draft] ] </small>
+
+<div id="anomalies" style="display: none; text-align: justify; line-height: 1.2" ><small>
+We ask how machine learning can change a crucial step of the scientific process in economics: the advancement of theories through the discovery of "anomalies." Canonical examples of anomalies include the Allais Paradox and the Kahneman-Tversky choice experiments, which are concrete examples of menus of lotteries that highlighted flaws in expected utility theory and spurred the development of new theories for decision-making under uncertainty. We develop an econometric framework for anomaly generation and develop two algorithmic procedures to generate anomalies (if they exist) when provided a formal theory and data that the theory seeks to explain. Our algorithmic procedures are general since anomalies play an important role across a wide variety of fields in economics. As an illustration, we apply our procedures to generate anomalies for expected utility theory using simulated lottery choice data by an individual who behaves according to cumulative prospect theory. We produce novel anomalies for the independence axiom based on the probability weighting function that to our knowledge have not been noticed before. While this illustration is specific, it is our view that automatic anomaly generation can accelerate the development of new theories.
+</small><br><br/></div>
+
+[anomalies_draft]:{{ site.baseurl }}{% link assets/files/anomalies_05052023.pdf %}
 
 **Counterfactual Risk Assessments under Unmeasured Confounding** (with [Amanda Coston][acoston] and [Edward Kennedy][ekennedy]). Updated Feb 2023. <br/>
 <small>[ <a href="#/" onclick="visib('risk-assessments-confounding')">Abstract</a> | [Draft][risk-ass-confounding] ] </small>
