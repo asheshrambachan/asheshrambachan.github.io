@@ -97,13 +97,14 @@ There is growing concern about "algorithmic bias" - that predictive algorithms u
 - - -
 
 **A More Credible Approach to Parallel Trends** (with [Jonathan Roth][jroth]). 2023. The Review of Economic Studies. <br/>
-<small>[ <a href="#/" onclick="visib('hpt')">Abstract</a> | [Draft][hpt-draft] | [R package][hpt-r-package] ]</small>
+<small>[ <a href="#/" onclick="visib('hpt')">Abstract</a> | [Draft][hpt-draft] | [Published Version][hpt-published] | [R package][hpt-r-package] ]</small>
 
 <div id="hpt" style="display: none; text-align: justify; line-height: 1.2" ><small>
 This paper proposes tools for robust inference in difference-in-differences and event-study designs where the parallel trends assumption may be violated. Instead of requiring that parallel trends holds exactly, we impose restrictions on how different the post-treatment violations of parallel trends can be from the pre-treatment differences in trends ("pre-trends"). The causal parameter of interest is partially identified under these restrictions. We introduce two approaches that guarantee uniformly valid inference under the imposed restrictions, and we derive novel results showing that they have desirable power properties in our context. We illustrate how economic knowledge can inform the restrictions on the possible violations of parallel trends in two economic applications. We also highlight how our approach can be used to conduct sensitivity analyses showing what causal conclusions can be drawn under various restrictions on the possible violations of the parallel trends assumption.
 </small><br><br/></div>
 
 [hpt-draft]: {{ site.baseurl }}{% link assets/files/hpt-draft.pdf %}
+[hpt-published]: https://academic.oup.com/restud/advance-article-abstract/doi/10.1093/restud/rdad018/7039335
 [hpt-r-package]: https://github.com/asheshrambachan/HonestDiD
 
 **Panel Experiments and Dynamic Causal Effects: A Finite Population Perspective** (with [Iavor Bojinov][ibojinov] and [Neil Shephard][nshephard]). 2021.
