@@ -16,10 +16,6 @@ My research interests are primarily in theoretical and applied econometrics with
 
 If you'd like to learn more about me, you can find my CV [here][asheshr-cv].
 
-If you'd like to contact me, please send me an email at ashesh.a.rambachan at gmail.com.
+If you'd like to contact me, please send me an email at asheshr at mit.edu
 
 [asheshr-cv]:{{ site.baseurl }}{% link assets/files/asheshr_cv.pdf %}
-[iandrews]: https://scholar.harvard.edu/iandrews/home
-[smullainathan]: https://sendhil.org/
-[nshephard]: https://scholar.harvard.edu/shephard/home
-[etamer]: https://scholar.harvard.edu/tamer/home

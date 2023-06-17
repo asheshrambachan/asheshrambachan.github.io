@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Ashesh Rambachan"
 title_separator          : "-"
 name                     : &name "Ashesh Rambachan"
-description              : &description "PhD Student in Economics at Harvard"
+description              : &description "Assistant Professor in Economics, MIT"
 url                      : https://asheshrambachan.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "asheshrambachan/asheshrambachan.github.io"
@@ -86,7 +86,7 @@ author:
   location         : "Cambridge, MA"
   employer         : 
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?hl=en&user=S3QkMXwAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=BfFr_DAAAAAJ&hl=en&oi=ao"
   email            : 
   researchgate     :  
   uri              :
