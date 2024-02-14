@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Ashesh Rambachan"
-excerpt: ""
+
 author_profile: true
 redirect_from: 
   - /about/
