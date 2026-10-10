@@ -1,11 +1,13 @@
 import { readFile, writeFile, mkdir, access } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createHash } from 'node:crypto';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const profile = JSON.parse(await readFile(resolve(root, 'content/profile.json'), 'utf8'));
 const research = JSON.parse(await readFile(resolve(root, 'content/research.json'), 'utf8'));
 const check = process.argv.includes('--check');
+const styleVersion = createHash('sha256').update(await readFile(resolve(root, 'assets/css/site.css'))).digest('hex').slice(0, 12);
 const escape = (value) => String(value).replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
 const navItems = [['Home', '/'], ['Working Papers', '/working-papers/'], ['Publications', '/publications/'], ['CV', profile.cv]];
 
@@ -26,7 +28,7 @@ function document(title, path, body, extraHead = '') {
   <meta property="og:url" content="${escape(profile.url + path)}">
   <meta property="og:image" content="${escape(profile.url + profile.photo)}">
   <meta property="og:image:alt" content="${escape(profile.name)}">
-  <link rel="stylesheet" href="/assets/css/site.css">
+  <link rel="stylesheet" href="/assets/css/site.css?v=${styleVersion}">
   ${extraHead}
 </head>
 <body>
@@ -124,7 +126,7 @@ for (const entries of Object.values(research)) {
 
 for (const [name, html] of pages) {
   for (const match of html.matchAll(/(?:href|src)="(\/[^"#]*)(?:#[^"]*)?"/g)) {
-    const path = decodeURI(match[1]);
+    const path = decodeURI(match[1].split('?')[0]);
     const local = path.endsWith('/') ? `${path.slice(1)}index.html` : path.slice(1);
     if (!pages.has(local)) await access(resolve(root, local));
   }

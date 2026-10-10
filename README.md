@@ -24,7 +24,7 @@ npm run preview
 
 The preview server prints its local URL (default `http://127.0.0.1:8768`). It serves only website output and public assets, not the source data or Git files. Stop it with Ctrl-C.
 
-The builder produces ordinary HTML with no browser JavaScript. Generated HTML is checked in so GitHub Pages can serve the repository root. Run the build after editing content and commit the resulting HTML together with the source. `npm run check` detects stale output, duplicate paper titles, non-HTTPS research links, and missing local link targets.
+The builder produces ordinary HTML with no browser JavaScript. Generated HTML is checked in so GitHub Pages can serve the repository root. Run the build after editing content or CSS and commit the resulting HTML together with the source. Stylesheet URLs include a content hash so browsers load revised styles after an update. `npm run check` detects stale output, duplicate paper titles, non-HTTPS research links, and missing local link targets.
 
 ## Publishing
 
