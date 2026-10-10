@@ -1,0 +1,354 @@
+{
+  "working_papers": [
+    {
+      "title": "The Measurement Revolution? Credible Measurement and Inference in the Age of AI",
+      "coauthors": "Melissa Dell",
+      "details": "In preparation for the Annual Review of Economics.",
+      "links": [
+        {
+          "label": "Draft",
+          "url": "https://arxiv.org/abs/2608.23524"
+        }
+      ]
+    },
+    {
+      "title": "Partial Identification from LLM Prompts",
+      "coauthors": "Xiaohong Chen and Elie Tamer",
+      "details": "",
+      "links": [
+        {
+          "label": "Draft",
+          "url": "https://arxiv.org/abs/2606.15031"
+        }
+      ]
+    },
+    {
+      "title": "Human Decisions and Machine Predictions in Multistage Systems",
+      "coauthors": "Jason Baron, Will Dobbie, Richard Lombardo, and Joseph Ryan",
+      "details": "",
+      "links": []
+    },
+    {
+      "title": "Program Evaluation with Remotely Sensed Outcomes",
+      "coauthors": "Rahul Singh and Davide Viviano",
+      "details": "Revise and Resubmit at American Economic Review.",
+      "links": [
+        {
+          "label": "Draft",
+          "url": "https://arxiv.org/abs/2411.10959"
+        },
+        {
+          "label": "R package",
+          "url": "https://github.com/asheshrambachan/remoteoutcome"
+        }
+      ]
+    },
+    {
+      "title": "When do Common Time Series Estimands have Nonparametric Causal Meaning?",
+      "coauthors": "Neil Shephard",
+      "details": "Revise and Resubmit at The Review of Economic Studies.",
+      "links": [
+        {
+          "label": "Draft",
+          "url": "https://arxiv.org/abs/1903.01637"
+        }
+      ]
+    },
+    {
+      "title": "An Economic Approach to Regulating Algorithms",
+      "coauthors": "Jon Kleinberg, Jens Ludwig, and Sendhil Mullainathan",
+      "details": "",
+      "links": [
+        {
+          "label": "Draft",
+          "url": "https://www.nber.org/papers/w27111"
+        }
+      ]
+    }
+  ],
+  "journals": [
+    {
+      "title": "From Predictive Algorithms to Automatic Generation of Anomalies",
+      "coauthors": "Sendhil Mullainathan",
+      "details": "Econometrica, Forthcoming.",
+      "links": [
+        {
+          "label": "Draft",
+          "url": "https://arxiv.org/abs/2404.10111"
+        }
+      ]
+    },
+    {
+      "title": "Robust Design and Evaluation of Predictive Algorithms under Unobserved Confounding",
+      "coauthors": "Amanda Coston and Edward Kennedy",
+      "details": "The Review of Economics and Statistics, Forthcoming.",
+      "links": [
+        {
+          "label": "Draft",
+          "url": "https://arxiv.org/abs/2212.09844"
+        }
+      ]
+    },
+    {
+      "title": "Large Language Models: An Applied Econometric Framework",
+      "coauthors": "Jens Ludwig and Sendhil Mullainathan",
+      "details": "Annual Review of Economics.",
+      "links": [
+        {
+          "label": "Draft",
+          "url": "https://arxiv.org/abs/2412.07031"
+        },
+        {
+          "label": "Published version",
+          "url": "https://www.annualreviews.org/content/journals/10.1146/annurev-economics-120925-105620"
+        }
+      ]
+    },
+    {
+      "title": "Design-Based Uncertainty for Quasi-Experiments",
+      "coauthors": "Jonathan Roth",
+      "details": "The Journal of the American Statistical Association.",
+      "links": [
+        {
+          "label": "Draft",
+          "url": "https://arxiv.org/abs/2008.00602"
+        },
+        {
+          "label": "Published version",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2526700"
+        }
+      ]
+    },
+    {
+      "title": "Structural Estimation Under Misspecification: Theory and Implications for Practice",
+      "coauthors": "Isaiah Andrews, Nano Barahona, Matthew Gentzkow, and Jesse Shapiro",
+      "details": "The Quarterly Journal of Economics.",
+      "links": [
+        {
+          "label": "Draft",
+          "url": "https://www.nber.org/papers/w31799"
+        },
+        {
+          "label": "Published version",
+          "url": "https://academic.oup.com/qje/article-abstract/140/3/1801/8090182"
+        }
+      ]
+    },
+    {
+      "title": "Identifying Prediction Mistakes in Observational Data",
+      "coauthors": "",
+      "details": "The Quarterly Journal of Economics.",
+      "links": [
+        {
+          "label": "Draft",
+          "url": "/assets/files/identifying-prediction-mistakes.pdf"
+        },
+        {
+          "label": "Published version",
+          "url": "https://academic.oup.com/qje/article-abstract/139/3/1665/7682113"
+        }
+      ]
+    },
+    {
+      "title": "A More Credible Approach to Parallel Trends",
+      "coauthors": "Jonathan Roth",
+      "details": "The Review of Economic Studies.",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://www.jonathandroth.com/assets/files/HonestParallelTrends_Main.pdf"
+        },
+        {
+          "label": "Published version",
+          "url": "https://academic.oup.com/restud/article-abstract/90/5/2555/7039335"
+        },
+        {
+          "label": "R package",
+          "url": "https://github.com/asheshrambachan/HonestDiD"
+        }
+      ]
+    },
+    {
+      "title": "Panel Experiments and Dynamic Causal Effects: A Finite Population Perspective",
+      "coauthors": "Iavor Bojinov and Neil Shephard",
+      "details": "Quantitative Economics.",
+      "links": [
+        {
+          "label": "Draft",
+          "url": "https://arxiv.org/abs/2003.09915"
+        },
+        {
+          "label": "Published version",
+          "url": "https://onlinelibrary.wiley.com/doi/10.3982/QE1744"
+        }
+      ]
+    }
+  ],
+  "conference_proceedings": [
+    {
+      "title": "What Has a Foundation Model Found? Using Inductive Bias to Probe for World Models",
+      "coauthors": "Peter Chang, Keyon Vafa, and Sendhil Mullainathan",
+      "details": "2025. Proceedings of the 42nd International Conference on Machine Learning (ICML).",
+      "links": [
+        {
+          "label": "Draft",
+          "url": "https://arxiv.org/abs/2507.06952"
+        },
+        {
+          "label": "Published version",
+          "url": "https://proceedings.mlr.press/v267/vafa25a.html"
+        }
+      ]
+    },
+    {
+      "title": "Evaluating the World Model Implicit in a Generative Model",
+      "coauthors": "Justin Chen, Keyon Vafa, Jon Kleinberg, and Sendhil Mullainathan",
+      "details": "2024. Proceedings of the 38th Conference on Neural Information Processing Systems (NeurIPS). Spotlight Award.",
+      "links": [
+        {
+          "label": "Draft",
+          "url": "https://arxiv.org/abs/2406.03689"
+        },
+        {
+          "label": "Published version",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/2f6a6317bada76b26a4f61bb70a7db59-Abstract-Conference.html"
+        }
+      ]
+    },
+    {
+      "title": "Do Large Language Models Perform the Way People Expect? Measuring the Human Generalization Function",
+      "coauthors": "Keyon Vafa and Sendhil Mullainathan",
+      "details": "2024. Proceedings of the 41st International Conference on Machine Learning (ICML).",
+      "links": [
+        {
+          "label": "Draft",
+          "url": "https://arxiv.org/abs/2406.01382"
+        },
+        {
+          "label": "Published version",
+          "url": "https://proceedings.mlr.press/v235/vafa24a.html"
+        }
+      ]
+    },
+    {
+      "title": "Characterizing Fairness over the Set of Good Models under Selective Labels",
+      "coauthors": "Amanda Coston and Alexandra Chouldechova",
+      "details": "2021. Proceedings of the 38th International Conference on Machine Learning (ICML).",
+      "links": [
+        {
+          "label": "Draft",
+          "url": "https://arxiv.org/abs/2101.00352"
+        },
+        {
+          "label": "Published version",
+          "url": "https://proceedings.mlr.press/v139/coston21a.html"
+        }
+      ]
+    },
+    {
+      "title": "Bias In, Bias Out? Evaluating the Folk Wisdom",
+      "coauthors": "Jonathan Roth",
+      "details": "2020. 1st Symposium on the Foundations of Responsible Computing (FORC).",
+      "links": [
+        {
+          "label": "Draft",
+          "url": "https://arxiv.org/abs/1909.08518"
+        },
+        {
+          "label": "Published version",
+          "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.FORC.2020.6"
+        }
+      ]
+    }
+  ],
+  "other_publications": [
+    {
+      "title": "Causal Inference with Satellite Imagery: A Comparison of Methods for Forest Conservation Data",
+      "coauthors": "Haya Alsharif, Rahul Singh, and Davide Viviano",
+      "details": "AEA Papers and Proceedings.",
+      "links": [
+        {
+          "label": "Published version",
+          "url": "https://www.aeaweb.org/articles?id=10.1257/pandp.20261019"
+        }
+      ]
+    },
+    {
+      "title": "Algorithms as a Vehicle to Reflective Equilibrium: Behavioral Economics 2.0",
+      "coauthors": "Jens Ludwig, Sendhil Mullainathan, and Sophia L. Pink",
+      "details": "2025. In Ajay K. Agrawal, Erik Brynjolfsson, and Anton Korinek, eds., The Economics of Transformative AI. University of Chicago Press. NBER Conference Volume.",
+      "links": [
+        {
+          "label": "Draft",
+          "url": "https://www.nber.org/system/files/chapters/c15325/c15325.pdf"
+        },
+        {
+          "label": "Chapter",
+          "url": "https://www.nber.org/books-and-chapters/economics-transformative-ai/algorithms-vehicle-reflective-equilibrium-behavioral-economics-20"
+        }
+      ]
+    },
+    {
+      "title": "Science in the Age of Algorithms",
+      "coauthors": "Sendhil Mullainathan",
+      "details": "2025. In Ajay K. Agrawal, Erik Brynjolfsson, and Anton Korinek, eds., The Economics of Transformative AI. University of Chicago Press. NBER Conference Volume.",
+      "links": [
+        {
+          "label": "Draft",
+          "url": "https://www.nber.org/system/files/chapters/c15321/c15321.pdf"
+        },
+        {
+          "label": "Chapter",
+          "url": "https://www.nber.org/books-and-chapters/economics-transformative-ai/science-age-algorithms"
+        }
+      ]
+    },
+    {
+      "title": "The Unreasonable Effectiveness of Algorithms",
+      "coauthors": "Jens Ludwig and Sendhil Mullainathan",
+      "details": "AEA Papers and Proceedings.",
+      "links": [
+        {
+          "label": "Published version",
+          "url": "https://www.aeaweb.org/articles?id=10.1257/pandp.20241072"
+        }
+      ]
+    },
+    {
+      "title": "An Economic Perspective on Algorithmic Fairness",
+      "coauthors": "Jon Kleinberg, Jens Ludwig, and Sendhil Mullainathan",
+      "details": "AEA Papers and Proceedings.",
+      "links": [
+        {
+          "label": "Published version",
+          "url": "https://www.aeaweb.org/articles?id=10.1257/pandp.20201036"
+        }
+      ]
+    },
+    {
+      "title": "Algorithmic Fairness",
+      "coauthors": "Jon Kleinberg, Jens Ludwig, and Sendhil Mullainathan",
+      "details": "AEA Papers and Proceedings.",
+      "links": [
+        {
+          "label": "Published version",
+          "url": "https://www.aeaweb.org/articles?id=10.1257/pandp.20181018"
+        }
+      ]
+    }
+  ],
+  "work_in_progress": [
+    {
+      "title": "Machine Learning as a Tool for Theory Induction",
+      "coauthors": "Steven Ma and Sendhil Mullainathan",
+      "details": "",
+      "links": []
+    },
+    {
+      "title": "From Next-Token Prediction to Automata Induction",
+      "coauthors": "Sendhil Mullainathan and Janani Sekar",
+      "details": "",
+      "links": []
+    }
+  ]
+}

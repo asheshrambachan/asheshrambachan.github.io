@@ -1,31 +1,33 @@
-A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
+# Ashesh Rambachan’s academic website
 
-I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
+The site uses the approved **Quiet** layout and **teal and copper** palette. The homepage introduction was approved on October 9, 2026. The research list is curated from the CV with Ashesh's approval.
 
-### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
+## Edit the site
 
-# Instructions
+- `content/profile.json`: name, appointment, institution, approved introduction, photo, CV, and Google Scholar links.
+- `content/research.json`: working papers, work in progress, and publications. Publications are grouped as Journals, Conference Proceedings, and Other Publications. AEA Papers and Proceedings and book chapters are in Other Publications; Conference Proceedings contains refereed CS proceedings.
+- `assets/css/site.css`: shared layout and palette.
+- `assets/files/asheshr_cv.pdf`: current public CV. The editable Word source stays in Dropbox.
+- `images/ashesh-rambachan.jpg`: current professional photo.
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+Research entries preserve approved titles, coauthors, and publication status. Website journal citations show the journal name and any forthcoming status; the CV retains full bibliographic details. Work in Progress intentionally includes only “Machine Learning as a Tool for Theory Induction” and “From Next-Token Prediction to Automata Induction.” Do not restore other CV entries automatically. Paper titles are plain text, with draft, publisher, and software links below each entry. Do not invent a paper link when no public manuscript is available. CV changes require Ashesh’s approval.
 
-See more info at https://academicpages.github.io/
+## Build and preview
 
-## To run locally (not on GitHub Pages, to serve on your own computer)
+Node.js 18 or later is sufficient. There are no npm dependencies and no installation step.
 
-1. Clone the repository and made updates as detailed above
-1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
-1. Run `bundle clean` to clean up the directory (no need to run `--force`)
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+```sh
+npm run build
+npm run check
+npm run preview
+```
 
-# Changelog -- bugfixes and enhancements
+The preview server prints its local URL (default `http://127.0.0.1:8768`). It serves only website output and public assets, not the source data or Git files. Stop it with Ctrl-C.
 
-There is one logistical issue with a ready-to-fork template theme like academic pages that makes it a little tricky to get bug fixes and updates to the core theme. If you fork this repository, customize it, then pull again, you'll probably get merge conflicts. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch. 
+The builder produces ordinary HTML with no browser JavaScript. Generated HTML is checked in so GitHub Pages can serve the repository root. Run the build after editing content and commit the resulting HTML together with the source. `npm run check` detects stale output, duplicate paper titles, non-HTTPS research links, and missing local link targets.
 
-To support this, all changes to the underlying code appear as a closed issue with the tag 'code change' -- get the list [here](https://github.com/academicpages/academicpages.github.io/issues?q=is%3Aclosed%20is%3Aissue%20label%3A%22code%20change%22%20). Each issue thread includes a comment linking to the single commit or a diff across multiple commits, so those with forked repositories can easily identify what they need to patch.
+## Publishing
+
+The repository remains compatible with the existing GitHub Pages branch deployment. `_config.yml` excludes source tools and the unused legacy theme from the Pages output. No GitHub settings need to change. Pushing the approved revision to the configured Pages source branch publishes it; local previews do not.
+
+The old Jekyll theme files are retained but no longer used. Existing files in `assets/files/` are preserved so old paper and teaching links continue to work. `/about/`, `/about.html`, `/research/`, `/cv/`, and `/resume/` have compatibility redirects. New primary routes are `/`, `/working-papers/`, and `/publications/`.
