@@ -10,6 +10,7 @@ const check = process.argv.includes('--check');
 const styleVersion = createHash('sha256').update(await readFile(resolve(root, 'assets/css/site.css'))).digest('hex').slice(0, 12);
 const escape = (value) => String(value).replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
 const navItems = [['Home', '/'], ['Working Papers', '/working-papers/'], ['Publications', '/publications/'], ['CV', profile.cv]];
+const metaDescription = profile.description.replace(/\s+/g, ' ').trim();
 
 function document(title, path, body, extraHead = '') {
   const pageTitle = title === 'Home' ? profile.name : `${title} | ${profile.name}`;
@@ -19,15 +20,18 @@ function document(title, path, body, extraHead = '') {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${escape(pageTitle)}</title>
-  <meta name="description" content="${escape(profile.description)}">
-  <meta name="theme-color" content="#fbfaf7">
+  <meta name="description" content="${escape(metaDescription)}">
+  <meta name="theme-color" content="#f6f2e9">
   <link rel="canonical" href="${escape(profile.url + path)}">
   <meta property="og:type" content="website">
   <meta property="og:title" content="${escape(pageTitle)}">
-  <meta property="og:description" content="${escape(profile.description)}">
+  <meta property="og:description" content="${escape(metaDescription)}">
   <meta property="og:url" content="${escape(profile.url + path)}">
   <meta property="og:image" content="${escape(profile.url + profile.photo)}">
   <meta property="og:image:alt" content="${escape(profile.name)}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&amp;family=Source+Sans+3:ital,wght@0,400;0,500;1,400&amp;display=swap">
   <link rel="stylesheet" href="/assets/css/site.css?v=${styleVersion}">
   ${extraHead}
 </head>
@@ -70,12 +74,19 @@ ${entries.map(entry => paper(entry, working)).join('\n')}
 
 const home = document('Home', '/', `
       <div class="home-layout">
-        <img class="portrait" src="${escape(profile.photo)}" alt="${escape(profile.name)}" width="4200" height="2801" fetchpriority="high">
+        <aside class="profile-margin">
+          <img class="portrait" src="${escape(profile.photo)}" alt="${escape(profile.name)}" width="4200" height="2801" fetchpriority="high">
+          <div class="affiliation">
+            <p>${escape(profile.title)}</p>
+            <p class="institution">${escape(profile.institution)}</p>
+          </div>
+          <div class="profile-links"><a href="${escape(profile.cv)}">CV</a><a href="${escape(profile.scholar)}">Google Scholar</a></div>
+        </aside>
         <div class="introduction">
           <h1>${escape(profile.name)}</h1>
-          <p class="affiliation">${escape(profile.title)}<br><span>${escape(profile.institution)}</span></p>
-          <p class="research-description">${escape(profile.description)}</p>
-          <div class="profile-links"><a href="${escape(profile.cv)}">CV</a><a href="${escape(profile.scholar)}">Google Scholar</a></div>
+          <div class="research-description">
+${profile.description.split(/\n\s*\n/).map(paragraph => `            <p>${escape(paragraph)}</p>`).join('\n')}
+          </div>
         </div>
       </div>`);
 

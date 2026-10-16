@@ -2,7 +2,7 @@
   "name": "ashesh-rambachan-website",
   "version": "1.0.0",
   "private": true,
-  "description": "Personal academic website in the Quiet teal-and-copper design.",
+  "description": "Personal academic website in the bookish Marginalia design.",
   "type": "module",
   "scripts": {
     "build": "node scripts/build-site.mjs",

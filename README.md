@@ -1,10 +1,10 @@
 # Ashesh Rambachan’s academic website
 
-The site uses the approved **Quiet** layout and **teal and copper** palette. The homepage introduction was approved on October 9, 2026. The research list is curated from the CV with Ashesh's approval.
+The site uses the **Marginalia** design approved on October 16, 2026: warm ivory, green ink, copper accents, Newsreader serif text, and Source Sans 3 navigation. The homepage places the photo and affiliation in a left margin beside the introduction. The introduction, revised on October 16, connects machine learning and AI with econometric and statistical thinking, followed by paragraphs on discovery and credibility. The research list is curated from the CV with Ashesh's approval.
 
 ## Edit the site
 
-- `content/profile.json`: name, appointment, institution, approved introduction, photo, CV, and Google Scholar links.
+- `content/profile.json`: name, appointment, institution, approved introduction, photo, CV, and Google Scholar links. Separate introduction paragraphs with blank lines (`\n\n`) in `description`; metadata uses the same text with whitespace collapsed.
 - `content/research.json`: working papers, work in progress, and publications. Publications are grouped as Journals, Conference Proceedings, and Other Publications. AEA Papers and Proceedings and book chapters are in Other Publications; Conference Proceedings contains refereed CS proceedings.
 - `assets/css/site.css`: shared layout and palette.
 - `assets/files/asheshr_cv.pdf`: current public CV. The editable Word source stays in Dropbox.
@@ -25,6 +25,8 @@ npm run preview
 The preview server prints its local URL (default `http://127.0.0.1:8768`). It serves only website output and public assets, not the source data or Git files. Stop it with Ctrl-C.
 
 The builder produces ordinary HTML with no browser JavaScript. Generated HTML is checked in so GitHub Pages can serve the repository root. Run the build after editing content or CSS and commit the resulting HTML together with the source. Stylesheet URLs include a content hash so browsers load revised styles after an update. `npm run check` detects stale output, duplicate paper titles, non-HTTPS research links, and missing local link targets.
+
+Fonts load from Google Fonts with Georgia and system sans-serif fallbacks. The portrait retains its original proportions at every screen width.
 
 ## Publishing
 
