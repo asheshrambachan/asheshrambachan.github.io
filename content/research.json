@@ -26,7 +26,12 @@
       "title": "Human Decisions and Machine Predictions in Multistage Systems",
       "coauthors": "Jason Baron, Will Dobbie, Richard Lombardo, and Joseph Ryan",
       "details": "",
-      "links": []
+      "links": [
+        {
+          "label": "Draft",
+          "url": "https://drive.google.com/file/d/10IWMFlN8cz-PbsMdqhfXtpVPmnjrqRgs/view"
+        }
+      ]
     },
     {
       "title": "Program Evaluation with Remotely Sensed Outcomes",
