@@ -1,17 +1,6 @@
 {
   "working_papers": [
     {
-      "title": "The Measurement Revolution? Credible Measurement and Inference in the Age of AI",
-      "coauthors": "Melissa Dell",
-      "details": "In preparation for the Annual Review of Economics.",
-      "links": [
-        {
-          "label": "Draft",
-          "url": "https://arxiv.org/abs/2608.23524"
-        }
-      ]
-    },
-    {
       "title": "Partial Identification from LLM Prompts",
       "coauthors": "Xiaohong Chen and Elie Tamer",
       "details": "",
@@ -72,6 +61,17 @@
     }
   ],
   "journals": [
+    {
+      "title": "The Measurement Revolution? Credible Measurement and Inference in the Age of AI",
+      "coauthors": "Melissa Dell",
+      "details": "Annual Review of Economics, Forthcoming.",
+      "links": [
+        {
+          "label": "Draft",
+          "url": "https://arxiv.org/abs/2608.23524"
+        }
+      ]
+    },
     {
       "title": "From Predictive Algorithms to Automatic Generation of Anomalies",
       "coauthors": "Sendhil Mullainathan",
