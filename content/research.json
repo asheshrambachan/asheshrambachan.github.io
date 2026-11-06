@@ -1,6 +1,17 @@
 {
   "working_papers": [
     {
+      "title": "Can Humans Add Value When Algorithms Outperform Them?",
+      "coauthors": "Nikhil Agarwal, Simon Hodson, and Yucheng Shang",
+      "details": "",
+      "links": [
+        {
+          "label": "Draft",
+          "url": "https://drive.google.com/file/d/1-w2ejUP3R1r5uuwoqhlNcMsc3ZNZf5Cj/view?usp=sharing"
+        }
+      ]
+    },
+    {
       "title": "Partial Identification from LLM Prompts",
       "coauthors": "Xiaohong Chen and Elie Tamer",
       "details": "",
